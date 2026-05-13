@@ -13,8 +13,8 @@ backend:
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 
-site_url: 'https://clinquant-sorbet-48a3d2.netlify.app/'
-display_url: 'https://clinquant-sorbet-48a3d2.netlify.app/'
+site_url: 'https://jaspersao.netlify.app/'
+display_url: 'https://jaspersao.netlify.app/'
 
 publish_mode: simple
 
