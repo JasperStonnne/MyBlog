@@ -1,24 +1,14 @@
 ---
-title: "Hello World"
-slug: "hello-world"
+title: JasperSao的首篇博文
+slug: hello-world
+description: 博文初新
 date: 2026-05-12T20:00:00+08:00
 draft: false
-description: "我的第一篇博客文章"
 categories:
   - 随笔
 tags:
-  - Hugo
+  - 创世之初
 ---
+## 第一篇博文
 
-这是我的第一篇博客文章。
-
-## 为什么选择 Hugo
-
-Hugo 是一个快速、灵活的静态网站生成器。
-
-## 下一步
-
-- [x] 安装 Hugo
-- [x] 配置主题
-- [x] 创建第一篇文章
-- [ ] 自动部署
+每次遇到这种有些重大意义的，为自己作结抑或为自己做首的时候，总是想的多，落到笔头上就寥寥无几了，博文伊始
