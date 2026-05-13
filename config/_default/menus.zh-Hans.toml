@@ -7,15 +7,11 @@ weight = 10
 name = "分类"
 pageRef = "categories"
 weight = 20
-[main.params]
-icon = "list"
 
 [[main]]
 name = "标签"
 pageRef = "tags"
 weight = 30
-[main.params]
-icon = "tag"
 
 [[main]]
 name = "友链"

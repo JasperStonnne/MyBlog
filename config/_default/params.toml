@@ -50,7 +50,7 @@ fingerprintAlgorithm = "sha256"
   showReadingTime = true
   showTableOfContents = true
   showTaxonomies = false
-  showWordCount = true
+  showWordCount = false
   showComments = true
   # sharingLinks = ["facebook", "x-twitter", "mastodon", "pinterest", "reddit", "linkedin", "email", "threads", "telegram", "line", "weibo", "xing", "bluesky"]
 
