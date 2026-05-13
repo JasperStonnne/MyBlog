@@ -1,14 +1,14 @@
 {{/*
   友链短代码
-  用法:
-  {{< friends >}}
+  用法 (每行一个，用 | 分隔):
+  {{% friends %}}
   头像URL | 名称 | 描述 | 链接
-  {{< /friends >}}
+  {{% /friends %}}
 */}}
 <style>
   .friends-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 1rem;
     margin: 1.5rem 0;
   }
@@ -18,9 +18,10 @@
     gap: 0.75rem;
     padding: 0.75rem;
     border-radius: 0.75rem;
-    border: 1px solid var(--tw-border-opacity, #e5e7eb);
+    border: 1px solid var(--border-color, #e5e7eb);
     transition: transform 0.2s, box-shadow 0.2s;
     text-decoration: none;
+    color: inherit;
   }
   .friend-card:hover {
     transform: translateY(-2px);
@@ -52,14 +53,20 @@
   }
 </style>
 <div class="friends-grid">
-  {{ range split (trim .Inner "\n") "\n" }}
-    {{ $parts := split . "|" }}
-    {{ if ge (len $parts) 4 }}
-      <a class="friend-card" href="{{ index $parts 3 | trim " " }}" target="_blank" rel="noopener noreferrer">
-        <img class="friend-avatar" src="{{ index $parts 0 | trim " " }}" alt="{{ index $parts 1 | trim " " }}" loading="lazy">
+  {{ $lines := split .Inner "\n" }}
+  {{ range $lines }}
+    {{ $line := trim . " \t\r\n" }}
+    {{ if and (gt (len $line) 0) (gt (len (split $line "|")) 3) }}
+      {{ $parts := split $line "|" }}
+      {{ $avatar := trim (index $parts 0) " " }}
+      {{ $name := trim (index $parts 1) " " }}
+      {{ $desc := trim (index $parts 2) " " }}
+      {{ $link := trim (index $parts 3) " " }}
+      <a class="friend-card" href="{{ $link }}" target="_blank" rel="noopener noreferrer">
+        <img class="friend-avatar" src="{{ $avatar }}" alt="{{ $name }}" loading="lazy">
         <div class="friend-info">
-          <div class="friend-name">{{ index $parts 1 | trim " " }}</div>
-          <div class="friend-desc">{{ index $parts 2 | trim " " }}</div>
+          <div class="friend-name">{{ $name }}</div>
+          <div class="friend-desc">{{ $desc }}</div>
         </div>
       </a>
     {{ end }}
