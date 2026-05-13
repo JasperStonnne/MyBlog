@@ -1,0 +1,67 @@
+{{/*
+  友链短代码
+  用法:
+  {{< friends >}}
+  头像URL | 名称 | 描述 | 链接
+  {{< /friends >}}
+*/}}
+<style>
+  .friends-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+  }
+  .friend-card {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    border-radius: 0.75rem;
+    border: 1px solid var(--tw-border-opacity, #e5e7eb);
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-decoration: none;
+  }
+  .friend-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  .friend-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  .friend-info {
+    overflow: hidden;
+  }
+  .friend-name {
+    font-weight: 700;
+    font-size: 0.95rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .friend-desc {
+    font-size: 0.8rem;
+    opacity: 0.7;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+</style>
+<div class="friends-grid">
+  {{ range split (trim .Inner "\n") "\n" }}
+    {{ $parts := split . "|" }}
+    {{ if ge (len $parts) 4 }}
+      <a class="friend-card" href="{{ index $parts 3 | trim " " }}" target="_blank" rel="noopener noreferrer">
+        <img class="friend-avatar" src="{{ index $parts 0 | trim " " }}" alt="{{ index $parts 1 | trim " " }}" loading="lazy">
+        <div class="friend-info">
+          <div class="friend-name">{{ index $parts 1 | trim " " }}</div>
+          <div class="friend-desc">{{ index $parts 2 | trim " " }}</div>
+        </div>
+      </a>
+    {{ end }}
+  {{ end }}
+</div>
