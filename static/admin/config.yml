@@ -1,0 +1,96 @@
+backend:
+  name: github
+  repo: JasperStonnne/MyBlog
+  branch: main
+  automatic_deployments: true
+  commit_messages:
+    create: '新增博客文章: {{slug}}'
+    update: '更新博客文章: {{slug}}'
+    delete: '删除博客文章: {{slug}}'
+    uploadMedia: '上传媒体文件: {{path}}'
+    deleteMedia: '删除媒体文件: {{path}}'
+
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+site_url: 'https://clinquant-sorbet-48a3d2.netlify.app/'
+display_url: 'https://clinquant-sorbet-48a3d2.netlify.app/'
+
+publish_mode: simple
+
+collections:
+  - name: "posts"
+    label: "博客文章"
+    label_singular: "博客文章"
+    folder: "content/posts"
+    create: true
+    delete: true
+    format: "frontmatter"
+    slug: "{{slug}}"
+    summary: "{{title}} - {{date}}"
+    sortable_fields: ['date', 'title']
+    view_filters:
+      - label: "草稿"
+        field: draft
+        pattern: true
+      - label: "已发布"
+        field: draft
+        pattern: false
+    fields:
+      - label: "标题"
+        name: "title"
+        widget: "string"
+        required: true
+        pattern: ['.{2,100}', "标题长度应在2-100字符之间"]
+      - label: "slug"
+        name: "slug"
+        widget: "string"
+        required: false
+        pattern: ['^[a-z0-9]+(?:-[a-z0-9]+)*$', "只能包含小写字母、数字和连字符"]
+      - label: "文章描述"
+        name: "description"
+        widget: "text"
+        required: false
+      - label: "发布日期"
+        name: "date"
+        widget: "datetime"
+        default: "{{now}}"
+        format: "YYYY-MM-DDTHH:mm:ssZZ"
+      - label: "草稿状态"
+        name: "draft"
+        widget: "boolean"
+        default: false
+      - label: "分类"
+        name: "categories"
+        widget: "list"
+        allow_add: true
+        required: false
+        default: []
+      - label: "标签"
+        name: "tags"
+        widget: "list"
+        allow_add: true
+        required: false
+        default: []
+      - label: "正文内容"
+        name: "body"
+        widget: "markdown"
+        required: true
+
+  - name: "pages"
+    label: "页面管理"
+    files:
+      - label: "关于页面"
+        name: "about"
+        file: "content/about.md"
+        fields:
+          - label: "页面内容"
+            name: "body"
+            widget: "markdown"
+      - label: "友链页面"
+        name: "friends"
+        file: "content/friends.md"
+        fields:
+          - label: "页面内容"
+            name: "body"
+            widget: "markdown"
