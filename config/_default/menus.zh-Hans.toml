@@ -8,7 +8,7 @@ name = "分类"
 pageRef = "categories"
 weight = 20
 [main.params]
-icon = "collection"
+icon = "list"
 
 [[main]]
 name = "标签"
