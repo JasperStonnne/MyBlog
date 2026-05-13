@@ -5,54 +5,7 @@
   头像URL | 名称 | 描述 | 链接
   {{% /friends %}}
 */}}
-<style>
-  .friends-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 1rem;
-    margin: 1.5rem 0;
-  }
-  .friend-card {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    padding: 0.75rem;
-    border-radius: 0.75rem;
-    border: 1px solid var(--border-color, #e5e7eb);
-    transition: transform 0.2s, box-shadow 0.2s;
-    text-decoration: none;
-    color: inherit;
-  }
-  .friend-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  }
-  .friend-avatar {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    object-fit: cover;
-    flex-shrink: 0;
-  }
-  .friend-info {
-    overflow: hidden;
-  }
-  .friend-name {
-    font-weight: 700;
-    font-size: 0.95rem;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  .friend-desc {
-    font-size: 0.8rem;
-    opacity: 0.7;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-</style>
-<div class="friends-grid">
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem;margin:1.5rem 0;">
   {{ $lines := split .Inner "\n" }}
   {{ range $lines }}
     {{ $line := trim . " \t\r\n" }}
@@ -62,11 +15,11 @@
       {{ $name := trim (index $parts 1) " " }}
       {{ $desc := trim (index $parts 2) " " }}
       {{ $link := trim (index $parts 3) " " }}
-      <a class="friend-card" href="{{ $link }}" target="_blank" rel="noopener noreferrer">
-        <img class="friend-avatar" src="{{ $avatar }}" alt="{{ $name }}" loading="lazy">
-        <div class="friend-info">
-          <div class="friend-name">{{ $name }}</div>
-          <div class="friend-desc">{{ $desc }}</div>
+      <a href="{{ $link }}" target="_blank" rel="noopener noreferrer" style="display:flex;align-items:center;gap:0.75rem;padding:0.75rem;border-radius:0.75rem;border:1px solid #e5e7eb;text-decoration:none;color:inherit;transition:transform 0.2s,box-shadow 0.2s;">
+        <img src="{{ $avatar }}" alt="{{ $name }}" loading="lazy" style="width:48px;height:48px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+        <div style="overflow:hidden;">
+          <div style="font-weight:700;font-size:0.95rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">{{ $name }}</div>
+          <div style="font-size:0.8rem;opacity:0.7;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">{{ $desc }}</div>
         </div>
       </a>
     {{ end }}
