@@ -1,4 +1,4 @@
-baseURL: https://jaspersatonnne.github.io/MyBlog/
+baseURL: https://jasperstonnne.github.io/MyBlog/
 locale: zh-cn
 title: "JasperSao的博客"
 theme: github.com/hugo-toha/toha/v4
@@ -65,7 +65,7 @@ module:
 # 主题参数
 params:
   logo: {}
-  gitRepo: https://github.com/JasperStonnne/JasperStonnne.github.io
+  gitRepo: https://github.com/JasperStonnne/MyBlog
   gitBranch: main
 
   features:
