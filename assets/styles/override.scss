@@ -97,3 +97,12 @@ html[data-theme='dark'] .taxonomy-term:hover {
   background-color: $indigo !important;
   color: $text-over !important;
 }
+
+// Hero background — replace default green photo with indigo gradient
+#homePageBackgroundImageDivStyled {
+  background-image: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 50%, #a5b4fc 100%) !important;
+}
+
+html[data-theme='dark'] #homePageBackgroundImageDivStyled {
+  background-image: linear-gradient(135deg, #1e1b4b 0%, #312e81 50%, #4338ca 100%) !important;
+}
