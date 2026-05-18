@@ -3,6 +3,10 @@
 /resources/_gen/
 .hugo_build.lock
 
+# Node
+node_modules/
+package-lock.json
+
 # OS 文件
 .DS_Store
 Thumbs.db

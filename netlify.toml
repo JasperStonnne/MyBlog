@@ -1,8 +1,0 @@
-[build]
-publish = "public"
-command = "hugo --gc --minify -b $URL"
-
-[build.environment]
-HUGO_VERSION = "0.161.1"
-HUGO_ENV = "production"
-TZ = "Asia/Shanghai"

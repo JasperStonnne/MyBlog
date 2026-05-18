@@ -1,0 +1,23 @@
+section:
+  name: 关于
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  hideTitle: true
+
+summary: |
+  欢迎来到我的博客 👋
+
+  这是我的个人博客，记录生活、技术与思考。
+
+socialLinks:
+  - name: Email
+    icon: fas fa-envelope
+    url: mailto:shijingyuan061010@gmail.com
+  - name: GitHub
+    icon: brands fa-github
+    url: https://github.com/JasperStonnne
+  - name: Linux.do
+    icon: fas fa-globe
+    url: https://linux.do/u/jaspersao/summary

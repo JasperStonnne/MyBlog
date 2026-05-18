@@ -1,0 +1,15 @@
+copyright: © 2026 JasperSao. All rights reserved.
+
+navbar:
+  - name: 关于
+    url: "#about"
+    weight: 1
+  - name: 文章
+    url: "#recent-posts"
+    weight: 2
+
+footer:
+  - name: 关于
+    url: "#about"
+  - name: 文章
+    url: "#recent-posts"

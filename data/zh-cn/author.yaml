@@ -1,0 +1,21 @@
+name: JasperSao
+image: author.webp
+designation: 博客作者
+summary:
+  - 我走了很远才来到你面前
+
+socialLinks:
+  - name: Email
+    icon: fas fa-envelope
+    url: mailto:shijingyuan061010@gmail.com
+  - name: GitHub
+    icon: brands fa-github
+    url: https://github.com/JasperStonnne
+  - name: Linux.do
+    icon: fas fa-globe
+    url: https://linux.do/u/jaspersao/summary
+
+contactInfo:
+  - icon: fas fa-envelope
+    label: Email
+    value: shijingyuan061010@gmail.com

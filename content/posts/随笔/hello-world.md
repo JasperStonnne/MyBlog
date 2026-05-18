@@ -4,8 +4,6 @@ slug: hello-world
 description: 博文初新
 date: 2026-05-12T20:00:00+08:00
 draft: false
-categories:
-  - 随笔
 tags:
   - 创世之初
 ---
