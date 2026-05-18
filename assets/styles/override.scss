@@ -1,0 +1,99 @@
+// Override Toha default cyan (#0891b2) → Indigo (#6366f1)
+
+$indigo:       #6366f1;  // indigo-500
+$indigo-light: #818cf8;  // indigo-400
+$text-over:    #f5f3ff;  // violet-50
+
+// Buttons
+.btn-dark {
+  background-color: $indigo !important;
+  border-color: $indigo !important;
+  color: $text-over !important;
+  &:hover, &:focus {
+    background-color: $indigo-light !important;
+    border-color: $indigo-light !important;
+  }
+}
+
+.btn-info {
+  --bs-btn-bg: #{$indigo};
+  --bs-btn-border-color: #{$indigo};
+  --bs-btn-hover-bg: #{$indigo-light};
+  --bs-btn-hover-border-color: #{$indigo-light};
+  --bs-btn-active-bg: #{$indigo-light};
+  --bs-btn-active-border-color: #{$indigo-light};
+  --bs-btn-disabled-bg: #{$indigo};
+  --bs-btn-disabled-border-color: #{$indigo};
+  --bs-btn-color: #{$text-over};
+  --bs-btn-hover-color: #{$text-over};
+  --bs-btn-active-color: #{$text-over};
+  --bs-btn-disabled-color: #{$text-over};
+}
+
+.btn-outline-info {
+  --bs-btn-color: #{$indigo};
+  --bs-btn-border-color: #{$indigo};
+  --bs-btn-hover-bg: #{$indigo};
+  --bs-btn-hover-border-color: #{$indigo};
+  --bs-btn-active-bg: #{$indigo};
+  --bs-btn-active-border-color: #{$indigo};
+  --bs-btn-disabled-color: #{$indigo};
+  --bs-btn-disabled-border-color: #{$indigo};
+  --bs-btn-hover-color: #{$text-over};
+  --bs-btn-active-color: #{$text-over};
+}
+
+.btn-link {
+  color: $indigo;
+  &:hover { color: $indigo-light; }
+}
+
+// Icon & action buttons
+.icon-button:hover,
+.icon-button:focus,
+html[data-theme='dark'] .icon-button:hover,
+html[data-theme='dark'] .icon-button:focus {
+  background-color: $indigo !important;
+}
+
+.filled-button,
+html[data-theme='dark'] .filled-button {
+  background-color: $indigo !important;
+  color: $text-over !important;
+}
+
+// Code copy button
+.copy-code-button:hover,
+.copy-code-button:focus,
+html[data-theme='dark'] .copy-code-button:hover,
+html[data-theme='dark'] .copy-code-button:focus,
+html[data-theme='dark'] .copy-code-button::before {
+  background-color: $indigo !important;
+  color: $text-over !important;
+}
+.copy-code-button:focus::before {
+  background-color: $indigo !important;
+  color: $text-over !important;
+}
+
+// Links & taxonomy
+.list-link.active,
+.taxonomy-term.active,
+.list-link:hover,
+.taxonomy-term:hover,
+html[data-theme='dark'] .list-link.active,
+html[data-theme='dark'] .taxonomy-term.active,
+html[data-theme='dark'] .list-link:hover,
+html[data-theme='dark'] .taxonomy-term:hover {
+  color: $indigo;
+}
+
+// Pagination
+.paginator .page-item > a {
+  color: $indigo;
+}
+.paginator .page-item.active,
+.paginator .page-item:hover > a {
+  background-color: $indigo !important;
+  color: $text-over !important;
+}
