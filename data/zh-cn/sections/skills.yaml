@@ -1,0 +1,22 @@
+section:
+  name: 技能
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+
+skills:
+  - name: 编程语言
+    summary: "熟悉 Python、Go、TypeScript，能用合适的工具解决合适的问题。"
+
+  - name: 后端开发
+    summary: "有 Web 后端开发经验，了解 RESTful API 设计与数据库建模。"
+
+  - name: 前端开发
+    summary: "掌握 HTML/CSS/JS 基础，用过 React，能搭出可用的界面。"
+
+  - name: Linux & 运维
+    summary: "日常使用 Linux，熟悉 Docker、Git，能独立部署项目。"
+
+  - name: AI 工具
+    summary: "积极探索 LLM 应用，关注 AI 工具对工作流程的改进。"

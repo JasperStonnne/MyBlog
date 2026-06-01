@@ -1,0 +1,28 @@
+section:
+  name: 项目
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+
+buttons:
+  - name: 全部
+    filter: all
+  - name: 个人项目
+    filter: personal
+
+projects:
+  - name: MyBlog
+    role: 独立开发
+    timeline: "2026 — 至今"
+    repo: https://github.com/JasperStonnne/MyBlog
+    summary: 基于 Hugo + Toha 主题搭建的个人博客，部署在 GitHub Pages。
+    tags:
+      - personal
+
+  - name: 项目占位符
+    role: 开发者
+    timeline: "2025"
+    summary: 在这里描述你做过的一个有意思的项目，哪怕只是课程作业或小工具。
+    tags:
+      - personal

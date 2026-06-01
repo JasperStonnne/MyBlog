@@ -1,29 +1,31 @@
-// Override Toha default cyan (#0891b2) → Indigo (#6366f1)
+// ── 主题色：从青色 → 深蓝紫 ──────────────────────────────────────────────────
 
-$indigo:       #6366f1;  // indigo-500
-$indigo-light: #818cf8;  // indigo-400
-$text-over:    #f5f3ff;  // violet-50
+$primary:       #5b21b6;   // violet-800
+$primary-light: #7c3aed;   // violet-600
+$primary-vivid: #8b5cf6;   // violet-500
+$text-over:     #f5f3ff;   // violet-50
 
-// Buttons
+// ── 按钮 ─────────────────────────────────────────────────────────────────────
+
 .btn-dark {
-  background-color: $indigo !important;
-  border-color: $indigo !important;
+  background-color: $primary !important;
+  border-color: $primary !important;
   color: $text-over !important;
   &:hover, &:focus {
-    background-color: $indigo-light !important;
-    border-color: $indigo-light !important;
+    background-color: $primary-light !important;
+    border-color: $primary-light !important;
   }
 }
 
 .btn-info {
-  --bs-btn-bg: #{$indigo};
-  --bs-btn-border-color: #{$indigo};
-  --bs-btn-hover-bg: #{$indigo-light};
-  --bs-btn-hover-border-color: #{$indigo-light};
-  --bs-btn-active-bg: #{$indigo-light};
-  --bs-btn-active-border-color: #{$indigo-light};
-  --bs-btn-disabled-bg: #{$indigo};
-  --bs-btn-disabled-border-color: #{$indigo};
+  --bs-btn-bg: #{$primary};
+  --bs-btn-border-color: #{$primary};
+  --bs-btn-hover-bg: #{$primary-light};
+  --bs-btn-hover-border-color: #{$primary-light};
+  --bs-btn-active-bg: #{$primary-light};
+  --bs-btn-active-border-color: #{$primary-light};
+  --bs-btn-disabled-bg: #{$primary};
+  --bs-btn-disabled-border-color: #{$primary};
   --bs-btn-color: #{$text-over};
   --bs-btn-hover-color: #{$text-over};
   --bs-btn-active-color: #{$text-over};
@@ -31,52 +33,55 @@ $text-over:    #f5f3ff;  // violet-50
 }
 
 .btn-outline-info {
-  --bs-btn-color: #{$indigo};
-  --bs-btn-border-color: #{$indigo};
-  --bs-btn-hover-bg: #{$indigo};
-  --bs-btn-hover-border-color: #{$indigo};
-  --bs-btn-active-bg: #{$indigo};
-  --bs-btn-active-border-color: #{$indigo};
-  --bs-btn-disabled-color: #{$indigo};
-  --bs-btn-disabled-border-color: #{$indigo};
+  --bs-btn-color: #{$primary-light};
+  --bs-btn-border-color: #{$primary-light};
+  --bs-btn-hover-bg: #{$primary-light};
+  --bs-btn-hover-border-color: #{$primary-light};
+  --bs-btn-active-bg: #{$primary-light};
+  --bs-btn-active-border-color: #{$primary-light};
+  --bs-btn-disabled-color: #{$primary-light};
+  --bs-btn-disabled-border-color: #{$primary-light};
   --bs-btn-hover-color: #{$text-over};
   --bs-btn-active-color: #{$text-over};
 }
 
 .btn-link {
-  color: $indigo;
-  &:hover { color: $indigo-light; }
+  color: $primary-light;
+  &:hover { color: $primary-vivid; }
 }
 
-// Icon & action buttons
+// ── 图标 & 动作按钮 ───────────────────────────────────────────────────────────
+
 .icon-button:hover,
 .icon-button:focus,
 html[data-theme='dark'] .icon-button:hover,
 html[data-theme='dark'] .icon-button:focus {
-  background-color: $indigo !important;
+  background-color: $primary !important;
 }
 
 .filled-button,
 html[data-theme='dark'] .filled-button {
-  background-color: $indigo !important;
+  background-color: $primary !important;
   color: $text-over !important;
 }
 
-// Code copy button
+// ── 代码复制按钮 ──────────────────────────────────────────────────────────────
+
 .copy-code-button:hover,
 .copy-code-button:focus,
 html[data-theme='dark'] .copy-code-button:hover,
 html[data-theme='dark'] .copy-code-button:focus,
 html[data-theme='dark'] .copy-code-button::before {
-  background-color: $indigo !important;
+  background-color: $primary !important;
   color: $text-over !important;
 }
 .copy-code-button:focus::before {
-  background-color: $indigo !important;
+  background-color: $primary !important;
   color: $text-over !important;
 }
 
-// Links & taxonomy
+// ── 链接 & 分类标签 ───────────────────────────────────────────────────────────
+
 .list-link.active,
 .taxonomy-term.active,
 .list-link:hover,
@@ -85,24 +90,104 @@ html[data-theme='dark'] .list-link.active,
 html[data-theme='dark'] .taxonomy-term.active,
 html[data-theme='dark'] .list-link:hover,
 html[data-theme='dark'] .taxonomy-term:hover {
-  color: $indigo;
+  color: $primary-light;
 }
 
-// Pagination
+// ── 分页 ──────────────────────────────────────────────────────────────────────
+
 .paginator .page-item > a {
-  color: $indigo;
+  color: $primary-light;
 }
 .paginator .page-item.active,
 .paginator .page-item:hover > a {
-  background-color: $indigo !important;
+  background-color: $primary !important;
   color: $text-over !important;
 }
 
-// Hero background — replace default green photo with indigo gradient
+// ── Hero 背景：浅色模式用柔和的薰衣草渐变，深色用深邃的紫夜 ─────────────────
+
 #homePageBackgroundImageDivStyled {
-  background-image: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 50%, #a5b4fc 100%) !important;
+  background-image: linear-gradient(
+    135deg,
+    #ede9fe 0%,    // violet-100
+    #ddd6fe 40%,   // violet-200
+    #c4b5fd 100%   // violet-300
+  ) !important;
 }
 
 html[data-theme='dark'] #homePageBackgroundImageDivStyled {
-  background-image: linear-gradient(135deg, #1e1b4b 0%, #312e81 50%, #4338ca 100%) !important;
+  background-image: linear-gradient(
+    135deg,
+    #1e1033 0%,    // 近乎黑紫
+    #2e1065 50%,   // violet-950
+    #4c1d95 100%   // violet-900
+  ) !important;
+}
+
+// ── 文章正文排版优化 ──────────────────────────────────────────────────────────
+
+.single-post-content,
+.content {
+  // 提升行高，改善可读性
+  line-height: 1.85;
+
+  h1, h2, h3 {
+    letter-spacing: -0.02em;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  // 代码块稍加圆角
+  pre {
+    border-radius: 8px !important;
+  }
+
+  // 行内代码用紫色底
+  code:not(pre > code) {
+    background-color: #ede9fe;
+    color: $primary;
+    padding: 0.1em 0.35em;
+    border-radius: 4px;
+    font-size: 0.88em;
+  }
+
+  html[data-theme='dark'] & code:not(pre > code) {
+    background-color: #2e1065;
+    color: $primary-vivid;
+  }
+
+  // 引用块样式
+  blockquote {
+    border-left: 3px solid $primary-vivid;
+    background: #f5f3ff;
+    border-radius: 0 6px 6px 0;
+    padding: 0.75rem 1.25rem;
+    color: #4c1d95;
+    font-style: italic;
+  }
+
+  html[data-theme='dark'] & blockquote {
+    background: #1e1033;
+    color: #c4b5fd;
+  }
+}
+
+// ── 技能卡片悬停效果 ──────────────────────────────────────────────────────────
+
+.skill-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(91, 33, 182, 0.15) !important;
+  }
+}
+
+// ── 项目卡片 ──────────────────────────────────────────────────────────────────
+
+.project-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(91, 33, 182, 0.15) !important;
+  }
 }

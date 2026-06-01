@@ -1,0 +1,31 @@
+section:
+  name: 教育经历
+  id: education
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+degrees:
+  - name: 计算机科学与技术（本科）  # ← 改成你的专业
+    icon: fa-graduation-cap
+    timeframe: "2022 — 至今"        # ← 改成你的年份
+    institution:
+      name: 某大学                    # ← 改成你的学校名
+      url: "#"
+    grade:
+      scale: GPA
+      achieved: 3.7
+      outOf: 4.0
+    takenCourses:
+      collapseAfter: 4
+      courses:
+        - name: 数据结构与算法
+        - name: 操作系统
+        - name: 计算机网络
+        - name: 数据库系统
+        - name: 编译原理
+        - name: 计算机组成原理
+    customSections:
+      - name: 获奖 / 荣誉
+        content: |
+          - 校级奖学金（2023）
