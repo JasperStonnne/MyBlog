@@ -8,6 +8,8 @@ tags:
   - learning
   - reflection
   - spaced-repetition
+categories:
+  - 随笔
 ---
 
 > 此篇致敬 Thoughts Memo《学会如何学习》，salute to 最伟大的互联网精神。这不是一篇反思文，而是一次复用。

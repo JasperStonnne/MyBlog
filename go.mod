@@ -1,5 +1,5 @@
-module github.com/JasperStonnne/JasperStonnne.github.io
+module github.com/JasperStonnne/MyBlog
 
 go 1.25.0
 
-require github.com/hugo-toha/toha/v4 v4.15.0 // indirect
+require github.com/CaiJimmy/hugo-theme-stack/v4 v4.0.3 // indirect

@@ -6,6 +6,8 @@ date: 2026-05-12T20:00:00+08:00
 draft: false
 tags:
   - 创世之初
+categories:
+  - 随笔
 ---
 ## 第一篇博文
 
