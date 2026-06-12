@@ -5,7 +5,7 @@ links:
   - title: boweny's Blog
     description: 工程、嵌入式、Agent 与个人成长记录。
     website: https://b0weny-qwq.github.io/Blog/
-    image: https://b0weny-qwq.github.io/Blog/img/avatar.jpg
+    image: img/links/boweny-avatar.jpg
   - title: Linux.do
     description: 技术社区，适合看工具、AI、开发环境和工程实践相关讨论。
     website: https://linux.do/
