@@ -159,12 +159,12 @@ menu:
       name: Email
       url: mailto:shijingyuan061010@gmail.com
       params:
-        icon: link
+        icon: mail
     - identifier: linuxdo
       name: Linux.do
       url: https://linux.do/u/jaspersao/summary
       params:
-        icon: link
+        icon: globe
 
 languages:
   zh-cn:
