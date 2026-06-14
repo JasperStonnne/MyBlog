@@ -68,9 +68,9 @@ params:
     lastUpdated: 2006年1月2日
 
   sidebar:
-    emoji: "🌌"
+    emoji: "✦"
     subtitle: 我走了很远才来到你面前
-    avatar: img/author.webp
+    avatar: img/sidebar/avatar-square.jpg
 
   article:
     headingAnchor: false

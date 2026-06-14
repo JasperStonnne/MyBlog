@@ -1,0 +1,9 @@
+.sidebar header .site-avatar .site-logo {
+    object-fit: cover;
+    object-position: center;
+}
+
+.sidebar header .site-avatar .emoji {
+    font-weight: 700;
+    color: var(--accent-color);
+}
