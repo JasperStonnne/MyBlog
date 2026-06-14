@@ -4,6 +4,7 @@ slug: reading-dog-money
 description: 读《小狗钱钱》的个人感悟，理财不只是技巧，更是对理想与自我的承诺
 date: 2026-05-27T00:00:00+08:00
 draft: false
+image: cover.svg
 tags:
   - 读书笔记
   - 理财

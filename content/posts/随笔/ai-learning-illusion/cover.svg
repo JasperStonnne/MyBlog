@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#25314F"/>
+  <circle cx="1030" cy="120" r="190" fill="#66C6BA" opacity="0.22"/>
+  <circle cx="160" cy="575" r="240" fill="#F7E7D0" opacity="0.12"/>
+  <path d="M88 112h1024v451H88z" fill="none" stroke="#F7E7D0" stroke-opacity="0.22" stroke-width="2"/>
+  <path d="M138 512h320" stroke="#66C6BA" stroke-width="10" stroke-linecap="round"/>
+  <text x="138" y="284" fill="#F7E7D0" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="76" font-weight="700">AI错觉的拨乱</text>
+  <text x="142" y="356" fill="#F7E7D0" opacity="0.82" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="400">学习闭环与主动输出</text>
+  <text x="142" y="470" fill="#66C6BA" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="700" letter-spacing="4">JASPER SAO</text>
+</svg>

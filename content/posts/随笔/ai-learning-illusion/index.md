@@ -4,6 +4,7 @@ slug: ai-learning-illusion
 description: AI辅助学习的闭环陷阱与解法
 date: 2026-05-31T00:00:00+08:00
 draft: false
+image: cover.svg
 tags:
   - AI学习
   - LLM
