@@ -5,11 +5,12 @@ description: 致敬 Thoughts Memo——关于迭代、内省、间隔重复与�
 date: 2026-06-01T00:00:00+08:00
 draft: false
 tags:
-  - learning
-  - reflection
-  - spaced-repetition
+  - 学习
+  - 间隔重复
+  - 复用
+  - 内省
 categories:
-  - 随笔
+  - 学习方法
 ---
 
 > 此篇致敬 Thoughts Memo《学会如何学习》，salute to 最伟大的互联网精神。这不是一篇反思文，而是一次复用。

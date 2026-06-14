@@ -5,9 +5,10 @@ description: 博文初新
 date: 2026-05-12T20:00:00+08:00
 draft: false
 tags:
-  - 创世之初
+  - 博客
+  - 开始
 categories:
-  - 随笔
+  - 个人随笔
 ---
 ## 第一篇博文
 
