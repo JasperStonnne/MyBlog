@@ -16,13 +16,13 @@ projects:
     role: 独立开发
     timeline: "2026 — 至今"
     repo: https://github.com/JasperStonnne/MyBlog
-    summary: 基于 Hugo + Toha 主题搭建的个人博客，部署在 GitHub Pages。
+    summary: 基于 Hugo + Stack 主题搭建的个人博客，用来整理学习笔记、项目记录与阶段性反思，部署在 GitHub Pages。
     tags:
       - personal
 
-  - name: 项目占位符
-    role: 开发者
-    timeline: "2025"
-    summary: 在这里描述你做过的一个有意思的项目，哪怕只是课程作业或小工具。
+  - name: 协同 Markdown 编辑器
+    role: 架构梳理 / 开发实践
+    timeline: "2026"
+    summary: 围绕 Yjs、Go、PostgreSQL 与 WebSocket 梳理实时协同编辑器的同步、图床、通知、鉴权和权限设计。
     tags:
       - personal
