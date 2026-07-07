@@ -4,6 +4,7 @@ slug: struggle-high-school-memories
 description: 高中三年的回望，从青涩、割裂到和解，一篇以"挣扎"为主题的散文
 date: 2026-07-07T00:00:00+08:00
 draft: false
+image: cover.svg
 tags:
   - reflection
   - life

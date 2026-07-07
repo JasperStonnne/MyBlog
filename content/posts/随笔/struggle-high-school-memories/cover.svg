@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#293241"/>
+  <path d="M0 520C130 470 230 500 350 450C505 385 615 415 750 350C930 262 1045 270 1200 190V675H0Z" fill="#3D5A80" opacity="0.72"/>
+  <path d="M0 570C155 520 280 548 430 495C595 436 720 450 880 392C1010 345 1090 315 1200 250V675H0Z" fill="#98C1D9" opacity="0.28"/>
+  <circle cx="996" cy="142" r="124" fill="#EE6C4D" opacity="0.24"/>
+  <circle cx="148" cy="554" r="188" fill="#E0FBFC" opacity="0.10"/>
+  <path d="M88 112h1024v451H88z" fill="none" stroke="#E0FBFC" stroke-opacity="0.22" stroke-width="2"/>
+  <path d="M138 512h320" stroke="#EE6C4D" stroke-width="10" stroke-linecap="round"/>
+  <text x="138" y="276" fill="#E0FBFC" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="76" font-weight="700">挣扎</text>
+  <text x="142" y="350" fill="#E0FBFC" opacity="0.84" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="400">高中回忆</text>
+  <text x="142" y="470" fill="#EE6C4D" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="700" letter-spacing="4">JASPER SAO</text>
+</svg>
