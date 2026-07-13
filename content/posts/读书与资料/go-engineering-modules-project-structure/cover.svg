@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Go 语言工程化：模块管理与项目结构</title>
+  <desc id="desc">Go modules and project folders arranged as a clean engineering diagram.</desc>
+  <rect width="1200" height="675" fill="#162528"/>
+  <path d="M0 0h1200v86H0z" fill="#49B8A8"/>
+  <path d="M0 86h1200v8H0z" fill="#E9BE63"/>
+  <path d="M84 126h1032v465H84z" fill="#1D3034" stroke="#DCE9E7" stroke-opacity="0.28" stroke-width="2"/>
+  <path d="M620 164h444v360H620z" fill="#101C1F" stroke="#49B8A8" stroke-width="2"/>
+  <path d="M650 194h384v66H650z" fill="#264348"/>
+  <path d="M650 282h180v92H650z" fill="#25373A" stroke="#E9BE63" stroke-width="2"/>
+  <path d="M854 282h180v92H854z" fill="#25373A" stroke="#E57A62" stroke-width="2"/>
+  <path d="M650 396h384v96H650z" fill="#25373A" stroke="#49B8A8" stroke-width="2"/>
+  <path d="M842 260v22M740 374v22M944 374v22" stroke="#DCE9E7" stroke-opacity="0.72" stroke-width="3"/>
+  <path d="M842 260H740v22M842 260h102v22" fill="none" stroke="#DCE9E7" stroke-opacity="0.72" stroke-width="3"/>
+  <text x="682" y="236" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="27" font-weight="700">go.mod</text>
+  <text x="680" y="338" fill="#E9BE63" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700">cmd/</text>
+  <text x="884" y="338" fill="#E57A62" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700">pkg/</text>
+  <text x="680" y="453" fill="#72D6C8" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700">internal/</text>
+  <path d="M136 522h358" stroke="#E9BE63" stroke-width="10" stroke-linecap="round"/>
+  <text x="136" y="244" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="72" font-weight="700">Go 语言工程化</text>
+  <text x="140" y="330" fill="#DCE9E7" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="500">模块管理 · 项目结构</text>
+  <text x="140" y="400" fill="#72D6C8" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="500">Modules / Packages / internal</text>
+  <text x="140" y="482" fill="#E9BE63" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="700" letter-spacing="4">JASPER SAO</text>
+</svg>
