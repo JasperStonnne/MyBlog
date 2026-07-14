@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10313A"/>
+      <stop offset="50%" stop-color="#176B61"/>
+      <stop offset="100%" stop-color="#101E2A"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.17"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1040" cy="130" r="184" fill="#F3C969" opacity="0.23"/>
+  <circle cx="174" cy="580" r="232" fill="#70D8C3" opacity="0.14"/>
+  <path d="M88 112h1024v451H88z" fill="none" stroke="#FFFFFF" stroke-opacity="0.20" stroke-width="2"/>
+  <rect x="738" y="174" width="322" height="276" rx="22" fill="url(#panel)" stroke="#FFFFFF" stroke-opacity="0.18"/>
+  <path d="M785 236h86M785 312h86M785 388h86" stroke="#FFFFFF" stroke-opacity="0.65" stroke-width="15" stroke-linecap="round"/>
+  <path d="M912 236h98M912 312h98M912 388h98" stroke="#F3C969" stroke-width="15" stroke-linecap="round"/>
+  <path d="M872 236h40M872 312h40M872 388h40" stroke="#70D8C3" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="872" cy="236" r="10" fill="#70D8C3"/>
+  <circle cx="872" cy="312" r="10" fill="#70D8C3"/>
+  <circle cx="872" cy="388" r="10" fill="#70D8C3"/>
+  <path d="M138 512h470" stroke="#F3C969" stroke-width="10" stroke-linecap="round"/>
+  <text x="138" y="236" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="68" font-weight="700">Go 语言并发</text>
+  <text x="142" y="324" fill="#FFFFFF" opacity="0.84" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="32" font-weight="400">Goroutine · Channel · Context</text>
+  <text x="142" y="384" fill="#FFFFFF" opacity="0.70" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="400">Worker Pool · Race Detector</text>
+  <text x="142" y="468" fill="#F3C969" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="700" letter-spacing="4">JASPER SAO</text>
+</svg>
