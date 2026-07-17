@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Go Web 开发：从 net/http 到 Gin</title>
+  <desc id="desc">An HTTP request flows through routing and middleware to a Gin handler.</desc>
+  <rect width="1200" height="675" fill="#15272B"/>
+  <path d="M0 0h1200v86H0z" fill="#43B5A4"/>
+  <path d="M0 86h1200v8H0z" fill="#F0C568"/>
+  <path d="M84 126h1032v465H84z" fill="#1D3236" stroke="#DCE9E7" stroke-opacity="0.28" stroke-width="2"/>
+  <path d="M672 178h382v310H672z" fill="#101D20" stroke="#43B5A4" stroke-width="2"/>
+  <path d="M708 216h132v58H708z" fill="#263E43" stroke="#F0C568" stroke-width="2"/>
+  <path d="M886 216h132v58H886z" fill="#263E43" stroke="#E87961" stroke-width="2"/>
+  <path d="M708 326h310v112H708z" fill="#263E43" stroke="#43B5A4" stroke-width="2"/>
+  <path d="M840 245h46M863 274v52" fill="none" stroke="#DCE9E7" stroke-opacity="0.72" stroke-width="4"/>
+  <path d="M851 313l12 13 12-13" fill="none" stroke="#DCE9E7" stroke-opacity="0.72" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="736" y="253" fill="#F0C568" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700">HTTP</text>
+  <text x="918" y="253" fill="#E87961" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700">ROUTE</text>
+  <text x="754" y="375" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700">Middleware</text>
+  <text x="754" y="414" fill="#70D6C8" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="700">Gin Handler</text>
+  <path d="M136 522h430" stroke="#F0C568" stroke-width="10" stroke-linecap="round"/>
+  <text x="136" y="238" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="68" font-weight="700">Go Web 开发</text>
+  <text x="140" y="326" fill="#DCE9E7" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="500">从 net/http 到 Gin</text>
+  <text x="140" y="396" fill="#70D6C8" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="500">REST API · CRUD · Middleware</text>
+  <text x="140" y="478" fill="#F0C568" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="700">JASPER SAO</text>
+</svg>
