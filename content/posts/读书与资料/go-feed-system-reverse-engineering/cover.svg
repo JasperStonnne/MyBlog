@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Go 项目反推：Feed 流系统实战</title>
+  <desc id="desc">A Go API sends feed events through RabbitMQ to workers backed by Redis and MySQL.</desc>
+  <rect width="1200" height="675" fill="#14262A"/>
+  <path d="M0 0h1200v86H0z" fill="#43B5A4"/>
+  <path d="M0 86h1200v8H0z" fill="#F0C568"/>
+  <path d="M84 126h1032v465H84z" fill="#1D3236" stroke="#DCE9E7" stroke-opacity="0.28" stroke-width="2"/>
+  <path d="M654 165h410v364H654z" fill="#101D20" stroke="#43B5A4" stroke-width="2"/>
+  <path d="M690 202h124v66H690z" fill="#263E43" stroke="#70D6C8" stroke-width="2"/>
+  <path d="M870 202h158v66H870z" fill="#263E43" stroke="#F0C568" stroke-width="2"/>
+  <path d="M690 334h338v78H690z" fill="#263E43" stroke="#E87961" stroke-width="2"/>
+  <path d="M690 456h148v48H690z" fill="#263E43" stroke="#70D6C8" stroke-width="2"/>
+  <path d="M880 456h148v48H880z" fill="#263E43" stroke="#70D6C8" stroke-width="2"/>
+  <path d="M814 235h56M842 268v66M842 412v44M954 412v44" fill="none" stroke="#DCE9E7" stroke-opacity="0.72" stroke-width="4"/>
+  <path d="M858 319l-16 15-16-15M826 441l16 15 16-15M938 441l16 15 16-15" fill="none" stroke="#DCE9E7" stroke-opacity="0.72" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="721" y="245" fill="#70D6C8" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700">API</text>
+  <text x="898" y="245" fill="#F0C568" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="700">FEED</text>
+  <text x="788" y="383" fill="#E87961" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700">RabbitMQ</text>
+  <text x="728" y="488" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="700">Redis</text>
+  <text x="913" y="488" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="700">Worker</text>
+  <path d="M136 522h430" stroke="#F0C568" stroke-width="10" stroke-linecap="round"/>
+  <text x="136" y="232" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="66" font-weight="700">Go 项目反推</text>
+  <text x="140" y="318" fill="#DCE9E7" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="36" font-weight="500">Feed 流系统实战</text>
+  <text x="140" y="390" fill="#70D6C8" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="27" font-weight="500">Docker · Queue · Worker</text>
+  <text x="140" y="474" fill="#F0C568" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="700">JASPER SAO</text>
+</svg>
