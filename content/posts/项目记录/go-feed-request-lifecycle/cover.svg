@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Go 项目反推：请求生命周期</title>
+  <desc id="desc">A Go login request flows through router, middleware, handler, service, repository, MySQL, and Redis.</desc>
+  <rect width="1200" height="675" fill="#14262A"/>
+  <path d="M0 0h1200v86H0z" fill="#43B5A4"/>
+  <path d="M0 86h1200v8H0z" fill="#F0C568"/>
+  <path d="M84 126h1032v465H84z" fill="#1D3236" stroke="#DCE9E7" stroke-opacity="0.28" stroke-width="2"/>
+
+  <text x="136" y="210" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="62" font-weight="700">请求生命周期</text>
+  <text x="140" y="282" fill="#DCE9E7" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="500">POST /account/login</text>
+  <text x="140" y="350" fill="#70D6C8" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="27" font-weight="500">Router · Middleware · Handler · Service · Repo</text>
+  <path d="M136 522h430" stroke="#F0C568" stroke-width="10" stroke-linecap="round"/>
+  <text x="140" y="474" fill="#F0C568" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="700">GO FEED SYSTEM · JASPER SAO</text>
+
+  <path d="M640 168h424v362H640z" fill="#101D20" stroke="#43B5A4" stroke-width="2"/>
+  <rect x="674" y="202" width="132" height="58" fill="#263E43" stroke="#70D6C8" stroke-width="2"/>
+  <rect x="866" y="202" width="164" height="58" fill="#263E43" stroke="#F0C568" stroke-width="2"/>
+  <rect x="674" y="318" width="132" height="58" fill="#263E43" stroke="#E87961" stroke-width="2"/>
+  <rect x="866" y="318" width="164" height="58" fill="#263E43" stroke="#70D6C8" stroke-width="2"/>
+  <rect x="674" y="434" width="132" height="58" fill="#263E43" stroke="#F0C568" stroke-width="2"/>
+  <rect x="866" y="434" width="74" height="58" fill="#263E43" stroke="#70D6C8" stroke-width="2"/>
+  <rect x="956" y="434" width="74" height="58" fill="#263E43" stroke="#70D6C8" stroke-width="2"/>
+
+  <text x="705" y="238" fill="#70D6C8" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700">Router</text>
+  <text x="897" y="238" fill="#F0C568" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700">Limiter</text>
+  <text x="698" y="354" fill="#E87961" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700">Handler</text>
+  <text x="905" y="354" fill="#70D6C8" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700">Service</text>
+  <text x="712" y="470" fill="#F0C568" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700">Repo</text>
+  <text x="881" y="470" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="700">SQL</text>
+  <text x="970" y="470" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="700">Redis</text>
+
+  <path d="M806 231h60M740 260v58M806 347h60M740 376v58M806 463h60M940 463h16" stroke="#DCE9E7" stroke-opacity="0.72" stroke-width="4" fill="none"/>
+  <path d="M850 217l16 14-16 14M724 302l16 16 16-16M850 333l16 14-16 14M724 418l16 16 16-16M850 449l16 14-16 14M940 447l16 16-16 16" fill="none" stroke="#DCE9E7" stroke-opacity="0.72" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="688" y="548" fill="#DCE9E7" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="600">Token 返回：repo → service → handler → client</text>
+</svg>
