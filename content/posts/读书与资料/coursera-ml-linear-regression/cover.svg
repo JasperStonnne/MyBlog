@@ -1,8 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="112" fill="#254E63"/>
-  <circle cx="388" cy="126" r="104" fill="#7DD3C7" opacity="0.28"/>
-  <circle cx="112" cy="404" r="128" fill="#ffffff" opacity="0.10"/>
-  <path d="M112 340h288" stroke="#7DD3C7" stroke-width="18" stroke-linecap="round"/>
-  <text x="256" y="226" text-anchor="middle" fill="#fff" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="48" font-weight="700">回归模型</text>
-  <text x="256" y="286" text-anchor="middle" fill="#fff" opacity="0.72" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="30" font-weight="600">Linear Regression</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">机器学习基础：线性回归模型</title>
+  <desc id="desc">A machine learning note cover showing a linear regression model, errors, and a cost curve.</desc>
+  <rect width="1200" height="675" fill="#17242A"/>
+  <rect x="660" y="92" width="540" height="583" fill="#262A34"/>
+  <rect width="1200" height="84" fill="#F4C95D"/>
+  <rect y="84" width="1200" height="8" fill="#E96B5C"/>
+  <text x="72" y="58" fill="#17242A" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="800">MACHINE LEARNING · COURSERA NOTES</text>
+
+  <text x="72" y="175" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="48" font-weight="800">线性回归模型</text>
+  <text x="72" y="218" fill="#75D5C3" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="700">LINEAR REGRESSION</text>
+
+  <line x1="96" y1="510" x2="588" y2="510" stroke="#DCE9E7" stroke-width="4"/>
+  <line x1="96" y1="510" x2="96" y2="268" stroke="#DCE9E7" stroke-width="4"/>
+  <circle cx="150" cy="462" r="14" fill="#75D5C3"/>
+  <circle cx="215" cy="425" r="14" fill="#75D5C3"/>
+  <circle cx="283" cy="397" r="14" fill="#75D5C3"/>
+  <circle cx="350" cy="360" r="14" fill="#75D5C3"/>
+  <circle cx="428" cy="315" r="14" fill="#75D5C3"/>
+  <circle cx="516" cy="282" r="14" fill="#75D5C3"/>
+  <path d="M128 482L548 270" fill="none" stroke="#E96B5C" stroke-width="7" stroke-linecap="round"/>
+  <path d="M150 462v-16M215 425v-18M283 397v-24M350 360v-20M428 315v-24M516 282v-19" stroke="#F4C95D" stroke-width="4" stroke-linecap="round"/>
+  <text x="72" y="572" fill="#DCE9E7" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="600">模型函数 · 参数 w,b · 预测误差</text>
+
+  <text x="720" y="175" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="48" font-weight="800">成本函数</text>
+  <text x="720" y="218" fill="#E96B5C" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="700">COST FUNCTION</text>
+  <line x1="732" y1="498" x2="1088" y2="498" stroke="#D7D9E0" stroke-width="4"/>
+  <line x1="732" y1="498" x2="732" y2="282" stroke="#D7D9E0" stroke-width="4"/>
+  <path d="M760 304c96 240 224 240 320 0" fill="none" stroke="#75D5C3" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="920" cy="449" r="14" fill="#F4C95D"/>
+  <path d="M920 449v49" stroke="#F4C95D" stroke-width="4" stroke-dasharray="8 8"/>
+  <text x="846" y="548" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="27" font-weight="800">min J(w,b)</text>
+  <text x="720" y="604" fill="#D7D9E0" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="600">平方误差 · 梯度下降</text>
+
+  <text x="72" y="638" fill="#F4C95D" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800">JASPER SAO</text>
 </svg>
