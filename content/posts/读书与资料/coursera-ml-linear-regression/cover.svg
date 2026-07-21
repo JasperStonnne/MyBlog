@@ -1,36 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
   <title id="title">机器学习基础：线性回归模型</title>
-  <desc id="desc">A machine learning note cover showing a linear regression model, errors, and a cost curve.</desc>
+  <desc id="desc">A clean machine learning note cover with a linear regression scatter plot and model formula.</desc>
   <rect width="1200" height="675" fill="#17242A"/>
-  <rect x="660" y="92" width="540" height="583" fill="#262A34"/>
+  <rect x="636" y="92" width="564" height="583" fill="#20313A"/>
   <rect width="1200" height="84" fill="#F4C95D"/>
   <rect y="84" width="1200" height="8" fill="#E96B5C"/>
   <text x="72" y="58" fill="#17242A" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="800">MACHINE LEARNING · COURSERA NOTES</text>
 
-  <text x="72" y="175" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="48" font-weight="800">线性回归模型</text>
-  <text x="72" y="218" fill="#75D5C3" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="700">LINEAR REGRESSION</text>
+  <text x="72" y="182" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="54" font-weight="800">线性回归模型</text>
+  <text x="72" y="230" fill="#75D5C3" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700">LINEAR REGRESSION</text>
+  <text x="72" y="316" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="42" font-weight="800">ŷ = wx + b</text>
+  <text x="72" y="370" fill="#DCE9E7" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="600">从房价预测出发理解模型、参数与误差</text>
 
-  <line x1="96" y1="510" x2="588" y2="510" stroke="#DCE9E7" stroke-width="4"/>
-  <line x1="96" y1="510" x2="96" y2="268" stroke="#DCE9E7" stroke-width="4"/>
-  <circle cx="150" cy="462" r="14" fill="#75D5C3"/>
-  <circle cx="215" cy="425" r="14" fill="#75D5C3"/>
-  <circle cx="283" cy="397" r="14" fill="#75D5C3"/>
-  <circle cx="350" cy="360" r="14" fill="#75D5C3"/>
-  <circle cx="428" cy="315" r="14" fill="#75D5C3"/>
-  <circle cx="516" cy="282" r="14" fill="#75D5C3"/>
-  <path d="M128 482L548 270" fill="none" stroke="#E96B5C" stroke-width="7" stroke-linecap="round"/>
-  <path d="M150 462v-16M215 425v-18M283 397v-24M350 360v-20M428 315v-24M516 282v-19" stroke="#F4C95D" stroke-width="4" stroke-linecap="round"/>
-  <text x="72" y="572" fill="#DCE9E7" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="600">模型函数 · 参数 w,b · 预测误差</text>
+  <rect x="72" y="458" width="132" height="54" fill="#244954" stroke="#75D5C3" stroke-width="2"/>
+  <rect x="224" y="458" width="132" height="54" fill="#2A3440" stroke="#F4C95D" stroke-width="2"/>
+  <rect x="376" y="458" width="172" height="54" fill="#312F3A" stroke="#E96B5C" stroke-width="2"/>
+  <text x="138" y="494" text-anchor="middle" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="800">参数</text>
+  <text x="290" y="494" text-anchor="middle" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="800">成本</text>
+  <text x="462" y="494" text-anchor="middle" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="800">梯度下降</text>
 
-  <text x="720" y="175" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="48" font-weight="800">成本函数</text>
-  <text x="720" y="218" fill="#E96B5C" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="700">COST FUNCTION</text>
-  <line x1="732" y1="498" x2="1088" y2="498" stroke="#D7D9E0" stroke-width="4"/>
-  <line x1="732" y1="498" x2="732" y2="282" stroke="#D7D9E0" stroke-width="4"/>
-  <path d="M760 304c96 240 224 240 320 0" fill="none" stroke="#75D5C3" stroke-width="8" stroke-linecap="round"/>
-  <circle cx="920" cy="449" r="14" fill="#F4C95D"/>
-  <path d="M920 449v49" stroke="#F4C95D" stroke-width="4" stroke-dasharray="8 8"/>
-  <text x="846" y="548" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="27" font-weight="800">min J(w,b)</text>
-  <text x="720" y="604" fill="#D7D9E0" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="600">平方误差 · 梯度下降</text>
+  <line x1="712" y1="540" x2="1110" y2="540" stroke="#DCE9E7" stroke-width="4"/>
+  <line x1="712" y1="540" x2="712" y2="180" stroke="#DCE9E7" stroke-width="4"/>
+  <path d="M712 468h398M712 396h398M712 324h398M712 252h398" stroke="#FFFFFF" stroke-width="2" opacity="0.08"/>
+  <path d="M788 540V180M864 540V180M940 540V180M1016 540V180" stroke="#FFFFFF" stroke-width="2" opacity="0.08"/>
+  <circle cx="762" cy="486" r="15" fill="#75D5C3"/>
+  <circle cx="824" cy="438" r="15" fill="#75D5C3"/>
+  <circle cx="884" cy="410" r="15" fill="#75D5C3"/>
+  <circle cx="946" cy="354" r="15" fill="#75D5C3"/>
+  <circle cx="1008" cy="312" r="15" fill="#75D5C3"/>
+  <circle cx="1070" cy="258" r="15" fill="#75D5C3"/>
+  <path d="M742 506L1092 246" fill="none" stroke="#E96B5C" stroke-width="8" stroke-linecap="round"/>
+  <path d="M762 486v-19M824 438v-18M884 410v-22M946 354v-20M1008 312v-17M1070 258v-16" stroke="#F4C95D" stroke-width="4" stroke-linecap="round"/>
+  <text x="730" y="158" fill="#F4C95D" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="800">HOUSE PRICE PREDICTION</text>
+  <text x="1044" y="584" fill="#D7D9E0" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700">x</text>
+  <text x="682" y="202" fill="#D7D9E0" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700">y</text>
 
   <text x="72" y="638" fill="#F4C95D" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800">JASPER SAO</text>
 </svg>
