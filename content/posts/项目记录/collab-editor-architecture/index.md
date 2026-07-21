@@ -3,7 +3,7 @@ title: 协同编辑器架构分析
 slug: collab-editor-architecture
 description: 记录一个 Yjs + Go + PostgreSQL 协同 Markdown 编辑器各模块的已有实现与待完善之处
 date: 2026-05-21T00:00:00+08:00
-draft: false
+draft: true
 image: cover.svg
 tags:
   - 协同编辑

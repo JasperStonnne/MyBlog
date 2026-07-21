@@ -3,7 +3,7 @@ title: CS61A Lab 练习理解
 slug: cs61a-lab-notes
 description: CS61A 课后 lab 习题的 Q&A 理解笔记，涵盖高阶函数、闭包、列表推导式、递归等
 date: 2026-05-20T00:00:00+08:00
-draft: false
+draft: true
 image: cover.svg
 tags:
   - CS61A
