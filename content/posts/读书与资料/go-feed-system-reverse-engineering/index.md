@@ -13,7 +13,7 @@ tags:
   - RabbitMQ
   - 开源贡献
 categories:
-  - 读书与资料
+  - 项目记录
 ---
 
 承接 [Go 语言基础：从变量到指针]({{< ref "go-basics-variables-to-pointers" >}})、[Go 语言进阶：方法、接口与错误处理]({{< ref "go-methods-interfaces-errors" >}})、[Go 语言工程化：模块管理与项目结构]({{< ref "go-engineering-modules-project-structure" >}})、[Go 语言并发：从 Goroutine 到 Worker Pool]({{< ref "go-concurrency-goroutines-worker-pool" >}}) 和 [Go Web 开发：从 net-http 到 Gin]({{< ref "go-web-net-http-to-gin" >}})，这一篇跳出语法学习，反推一个真实的开源项目——[feedsystem_video_go](https://github.com/LeoninCS/feedsystem_video_go)（279 star，Go + Vue 3 短视频 Feed 流系统），从跑通项目到提交 PR，走一遍完整的工程实战。

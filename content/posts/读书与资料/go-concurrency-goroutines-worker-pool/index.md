@@ -12,7 +12,7 @@ tags:
   - Channel
   - Worker Pool
 categories:
-  - 读书与资料
+  - 技术笔记
 ---
 
 承接 [Go 语言基础：从变量到指针]({{< ref "go-basics-variables-to-pointers" >}})、[Go 语言进阶：方法、接口与错误处理]({{< ref "go-methods-interfaces-errors" >}}) 和 [Go 语言工程化：模块管理与项目结构]({{< ref "go-engineering-modules-project-structure" >}})，这一篇覆盖 Go 最核心的特性：并发编程。

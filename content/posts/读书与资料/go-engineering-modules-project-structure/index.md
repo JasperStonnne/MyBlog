@@ -12,7 +12,7 @@ tags:
   - 项目结构
   - 学习笔记
 categories:
-  - 读书与资料
+  - 技术笔记
 ---
 
 承接 [Go 语言基础：从变量到指针]({{< relref "/posts/读书与资料/go-basics-variables-to-pointers" >}}) 和 [Go 语言进阶：方法、接口与错误处理]({{< relref "/posts/读书与资料/go-methods-interfaces-errors" >}})，这一篇覆盖 Go 项目的工程化核心：模块管理、包的组织、目录结构。

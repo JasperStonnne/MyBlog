@@ -12,7 +12,7 @@ tags:
   - 接口
   - 错误处理
 categories:
-  - 读书与资料
+  - 技术笔记
 ---
 
 承接 [Go 语言基础：从变量到指针](/p/go-basics-variables-to-pointers/)，这一篇覆盖 Go 的进阶核心概念：方法、接口、错误处理，以及泛型入门。

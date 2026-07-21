@@ -11,7 +11,7 @@ tags:
   - 函数式编程
   - 递归
 categories:
-  - 读书与资料
+  - 技术笔记
 ---
 
 ## composite_identity

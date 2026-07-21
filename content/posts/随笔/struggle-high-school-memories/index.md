@@ -9,7 +9,7 @@ tags:
   - reflection
   - life
 categories:
-  - 随笔
+  - 个人随笔
 ---
 
 **人生的路是注定的，该走的避不开，接受了，也便接受了成长——序**

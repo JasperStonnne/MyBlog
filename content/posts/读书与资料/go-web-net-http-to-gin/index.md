@@ -12,7 +12,7 @@ tags:
   - Gin
   - REST API
 categories:
-  - 读书与资料
+  - 技术笔记
 ---
 
 承接 [Go 语言基础：从变量到指针]({{< ref "go-basics-variables-to-pointers" >}})、[Go 语言进阶：方法、接口与错误处理]({{< ref "go-methods-interfaces-errors" >}})、[Go 语言工程化：模块管理与项目结构]({{< ref "go-engineering-modules-project-structure" >}}) 和 [Go 语言并发：从 Goroutine 到 Worker Pool]({{< ref "go-concurrency-goroutines-worker-pool" >}})，这一篇进入 Web 开发实战：用 Go 写 HTTP 服务器。
