@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#254E63"/>
+  <circle cx="388" cy="126" r="104" fill="#7DD3C7" opacity="0.28"/>
+  <circle cx="112" cy="404" r="128" fill="#ffffff" opacity="0.10"/>
+  <path d="M112 340h288" stroke="#7DD3C7" stroke-width="18" stroke-linecap="round"/>
+  <text x="256" y="236" text-anchor="middle" fill="#fff" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="56" font-weight="700">技术笔记</text>
+  <text x="256" y="292" text-anchor="middle" fill="#fff" opacity="0.72" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="30" font-weight="600">Notes</text>
+</svg>

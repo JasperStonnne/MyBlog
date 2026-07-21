@@ -1,4 +1,5 @@
 ---
 title: 技术笔记
 description: 编程语言、课程练习、工程化知识和技术概念的系统整理。
+image: cover.svg
 ---
