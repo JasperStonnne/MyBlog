@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">机器学习基础：用梯度下降法训练模型</title>
+  <desc id="desc">A machine learning note cover showing gradient descent moving down a cost-function curve.</desc>
+  <rect width="1200" height="675" fill="#17242A"/>
+  <rect x="636" y="92" width="564" height="583" fill="#20313A"/>
+  <rect width="1200" height="84" fill="#F4C95D"/>
+  <rect y="84" width="1200" height="8" fill="#E96B5C"/>
+  <text x="72" y="58" fill="#17242A" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="800">MACHINE LEARNING · COURSERA NOTES</text>
+
+  <text x="72" y="182" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="52" font-weight="800">梯度下降训练</text>
+  <text x="72" y="230" fill="#75D5C3" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700">GRADIENT DESCENT</text>
+  <text x="72" y="316" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="33" font-weight="800">w := w − α ∂J/∂w</text>
+  <text x="72" y="370" fill="#DCE9E7" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="600">理解导数、学习率、收敛与参数更新</text>
+
+  <rect x="72" y="458" width="132" height="54" fill="#244954" stroke="#75D5C3" stroke-width="2"/>
+  <rect x="224" y="458" width="132" height="54" fill="#2A3440" stroke="#F4C95D" stroke-width="2"/>
+  <rect x="376" y="458" width="172" height="54" fill="#312F3A" stroke="#E96B5C" stroke-width="2"/>
+  <text x="138" y="494" text-anchor="middle" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="800">导数</text>
+  <text x="290" y="494" text-anchor="middle" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="800">学习率</text>
+  <text x="462" y="494" text-anchor="middle" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="800">同步更新</text>
+
+  <path d="M688 188C760 192 784 226 824 326C860 416 900 514 938 514C980 514 1014 414 1048 326C1084 230 1122 190 1180 188" fill="none" stroke="#DCE9E7" stroke-width="8" stroke-linecap="round"/>
+  <path d="M724 216L802 292M790 273l12 19-21 4" fill="none" stroke="#E96B5C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M824 326L876 432M865 414l11 18-21 2" fill="none" stroke="#F4C95D" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M884 450L930 500M920 486l10 14-17 1" fill="none" stroke="#75D5C3" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="724" cy="216" r="14" fill="#E96B5C"/>
+  <circle cx="824" cy="326" r="14" fill="#F4C95D"/>
+  <circle cx="884" cy="450" r="14" fill="#75D5C3"/>
+  <circle cx="938" cy="514" r="17" fill="#FFFFFF" stroke="#75D5C3" stroke-width="6"/>
+  <text x="714" y="566" fill="#F4C95D" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="800">J(w, b) → minimum</text>
+  <text x="72" y="638" fill="#F4C95D" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800">JASPER SAO</text>
+</svg>
