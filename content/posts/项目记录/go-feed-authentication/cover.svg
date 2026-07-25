@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Go 项目反推：Feed 流系统实战——认证体系</title>
+  <desc id="desc">A Go Feed system authentication cover showing access tokens, refresh tokens, JWT verification, Redis, and MySQL.</desc>
+  <rect width="1200" height="675" fill="#14262A"/>
+  <path d="M0 0h1200v86H0z" fill="#43B5A4"/>
+  <path d="M0 86h1200v8H0z" fill="#F0C568"/>
+  <path d="M84 126h1032v465H84z" fill="#1D3236" stroke="#DCE9E7" stroke-opacity="0.28" stroke-width="2"/>
+
+  <text x="136" y="210" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="62" font-weight="700">认证体系</text>
+  <text x="140" y="282" fill="#DCE9E7" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="500">JWT + Refresh Token + Revocation</text>
+  <text x="140" y="350" fill="#70D6C8" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="27" font-weight="500">签名 · 刷新 · 撤销 · 软硬鉴权</text>
+  <path d="M136 522h430" stroke="#F0C568" stroke-width="10" stroke-linecap="round"/>
+  <text x="140" y="474" fill="#F0C568" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="700">GO FEED SYSTEM · JASPER SAO</text>
+
+  <path d="M650 162h410v374H650z" fill="#101D20" stroke="#43B5A4" stroke-width="2"/>
+  <path d="M855 200l82 30v70c0 74-38 128-82 151-44-23-82-77-82-151v-70z" fill="#263E43" stroke="#70D6C8" stroke-width="5"/>
+  <rect x="813" y="284" width="84" height="70" rx="10" fill="#14262A" stroke="#F0C568" stroke-width="4"/>
+  <path d="M831 284v-22c0-32 48-32 48 0v22" fill="none" stroke="#F0C568" stroke-width="5"/>
+  <circle cx="855" cy="317" r="9" fill="#E87961"/>
+  <path d="M855 326v13" stroke="#E87961" stroke-width="5" stroke-linecap="round"/>
+
+  <rect x="684" y="190" width="118" height="48" fill="#263E43" stroke="#70D6C8" stroke-width="2"/>
+  <rect x="908" y="190" width="118" height="48" fill="#263E43" stroke="#F0C568" stroke-width="2"/>
+  <rect x="684" y="460" width="118" height="48" fill="#263E43" stroke="#E87961" stroke-width="2"/>
+  <rect x="908" y="460" width="118" height="48" fill="#263E43" stroke="#70D6C8" stroke-width="2"/>
+  <text x="706" y="221" fill="#70D6C8" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="700">Access</text>
+  <text x="925" y="221" fill="#F0C568" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="700">Refresh</text>
+  <text x="709" y="491" fill="#E87961" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="700">Redis</text>
+  <text x="925" y="491" fill="#70D6C8" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="700">MySQL</text>
+  <path d="M802 214h66M908 214h-66M802 484h66M908 484h-66" stroke="#DCE9E7" stroke-opacity="0.72" stroke-width="4"/>
+  <text x="771" y="570" fill="#DCE9E7" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="600">Verify · Refresh · Revoke</text>
+</svg>
