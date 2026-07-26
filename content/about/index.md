@@ -11,7 +11,7 @@ slug: "about"
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=JasperStonnne&theme=github-compact&hide_border=true" alt="GitHub Activity Graph" loading="lazy">
 
-<img src="https://github-readme-stats.vercel.app/api?username=JasperStonnne&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" alt="GitHub Stats" loading="lazy">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=JasperStonnne&theme=transparent" alt="GitHub Stats" loading="lazy">
 
 <img src="https://streak-stats.demolab.com?user=JasperStonnne&theme=transparent&hide_border=true&date_format=%5BY.%5Dn.j" alt="GitHub Streak" loading="lazy">
 
