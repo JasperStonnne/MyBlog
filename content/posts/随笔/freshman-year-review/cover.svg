@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">大一回顾：求不得，生不息</title>
+  <desc id="desc">A reflective university freshman year cover with a coastal horizon and an ascending path.</desc>
+  <rect width="1200" height="675" fill="#1E3040"/>
+  <circle cx="1000" cy="154" r="118" fill="#F3B562" opacity="0.30"/>
+  <path d="M0 420C155 374 292 402 424 368C582 327 700 349 842 304C1015 250 1094 234 1200 210V675H0Z" fill="#31556B"/>
+  <path d="M0 505C162 452 298 483 456 432C620 379 740 401 902 351C1041 308 1124 281 1200 252V675H0Z" fill="#5B8FA3" opacity="0.66"/>
+  <path d="M0 579C182 526 333 552 496 507C661 462 804 478 954 434C1074 399 1143 365 1200 333V675H0Z" fill="#B7D4D7" opacity="0.30"/>
+  <path d="M88 112h1024v451H88z" fill="none" stroke="#E7F0EF" stroke-opacity="0.22" stroke-width="2"/>
+
+  <text x="138" y="245" fill="#E7F0EF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="70" font-weight="700">大一回顾</text>
+  <text x="142" y="329" fill="#F3B562" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="42" font-weight="700">求不得，生不息</text>
+  <text x="142" y="395" fill="#D3E2E2" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="500">探索 · 迷茫 · 选择 · 成长</text>
+  <path d="M138 500h342" stroke="#E67E62" stroke-width="10" stroke-linecap="round"/>
+  <text x="142" y="466" fill="#E67E62" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="700" letter-spacing="4">FRESHMAN YEAR · JASPER SAO</text>
+
+  <path d="M684 540C733 459 772 407 817 367C866 323 924 299 1001 286" fill="none" stroke="#F3B562" stroke-width="9" stroke-linecap="round"/>
+  <path d="M980 270l29 14-22 24" fill="none" stroke="#F3B562" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="706" cy="507" r="13" fill="#E67E62"/>
+  <circle cx="807" cy="376" r="13" fill="#E7F0EF"/>
+  <circle cx="920" cy="313" r="13" fill="#B7D4D7"/>
+</svg>
