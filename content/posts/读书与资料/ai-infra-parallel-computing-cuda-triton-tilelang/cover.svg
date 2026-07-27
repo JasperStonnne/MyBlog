@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">AI Infra：从并行计算到 CUDA、Triton 与 TileLang</title>
+  <desc id="desc">AI infrastructure lecture note cover featuring a GPU execution hierarchy and tiled computation grid.</desc>
+  <rect width="1200" height="675" fill="#101923"/>
+  <rect x="636" y="92" width="564" height="583" fill="#172633"/>
+  <rect width="1200" height="84" fill="#76E6C2"/>
+  <rect y="84" width="1200" height="8" fill="#FFB454"/>
+  <text x="72" y="58" fill="#101923" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="800">AI INFRA · HPC TRAINING CAMP</text>
+
+  <text x="72" y="178" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="52" font-weight="800">并行计算与 GPU 编程</text>
+  <text x="72" y="230" fill="#76E6C2" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700">CUDA · TRITON · TILELANG</text>
+  <text x="72" y="322" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="36" font-weight="800">COMPUTE × MEMORY × DATAFLOW</text>
+  <text x="72" y="371" fill="#CBD8E4" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="600">从线程级执行到 Tile-level DSL</text>
+
+  <rect x="72" y="452" width="126" height="54" rx="4" fill="#193B42" stroke="#76E6C2" stroke-width="2"/>
+  <rect x="218" y="452" width="126" height="54" rx="4" fill="#3B3020" stroke="#FFB454" stroke-width="2"/>
+  <rect x="364" y="452" width="126" height="54" rx="4" fill="#2C2945" stroke="#9C8CFF" stroke-width="2"/>
+  <rect x="510" y="452" width="94" height="54" rx="4" fill="#3B2430" stroke="#FF7897" stroke-width="2"/>
+  <text x="135" y="487" text-anchor="middle" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="800">GRID</text>
+  <text x="281" y="487" text-anchor="middle" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="800">BLOCK</text>
+  <text x="427" y="487" text-anchor="middle" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="800">WARP</text>
+  <text x="557" y="487" text-anchor="middle" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="800">TILE</text>
+
+  <g transform="translate(700 154)">
+    <rect width="420" height="390" rx="18" fill="#101923" stroke="#76E6C2" stroke-width="4"/>
+    <text x="28" y="48" fill="#76E6C2" font-family="Inter, sans-serif" font-size="22" font-weight="800">GPU EXECUTION MAP</text>
+    <g transform="translate(28 78)">
+      <rect width="364" height="78" rx="8" fill="#213B45" stroke="#76E6C2" stroke-width="2"/>
+      <text x="182" y="48" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="24" font-weight="800">GRID</text>
+    </g>
+    <path d="M210 156v28M210 184H82M210 184h128M82 184v24M210 184v24M338 184v24" fill="none" stroke="#FFB454" stroke-width="4"/>
+    <g transform="translate(28 208)" fill="#342D22" stroke="#FFB454" stroke-width="2">
+      <rect width="108" height="62" rx="6"/>
+      <rect x="128" width="108" height="62" rx="6"/>
+      <rect x="256" width="108" height="62" rx="6"/>
+    </g>
+    <g fill="#FFFFFF" font-family="Inter, sans-serif" font-size="17" font-weight="800" text-anchor="middle">
+      <text x="82" y="247">BLOCK 0</text>
+      <text x="210" y="247">BLOCK 1</text>
+      <text x="338" y="247">BLOCK N</text>
+    </g>
+    <g transform="translate(28 296)">
+      <g fill="#282644" stroke="#9C8CFF" stroke-width="2">
+        <rect width="76" height="54" rx="5"/>
+        <rect x="96" width="76" height="54" rx="5"/>
+        <rect x="192" width="76" height="54" rx="5"/>
+        <rect x="288" width="76" height="54" rx="5"/>
+      </g>
+      <g fill="#FFFFFF" font-family="Inter, sans-serif" font-size="15" font-weight="800" text-anchor="middle">
+        <text x="38" y="34">WARP</text>
+        <text x="134" y="34">WARP</text>
+        <text x="230" y="34">WARP</text>
+        <text x="326" y="34">WARP</text>
+      </g>
+    </g>
+  </g>
+
+  <text x="72" y="638" fill="#76E6C2" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800">JASPER SAO</text>
+</svg>
