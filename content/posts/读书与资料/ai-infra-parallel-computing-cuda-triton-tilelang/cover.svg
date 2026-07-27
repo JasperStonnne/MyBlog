@@ -9,7 +9,7 @@
 
   <text x="72" y="178" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="52" font-weight="800">并行计算与 GPU 编程</text>
   <text x="72" y="230" fill="#76E6C2" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="700">CUDA · TRITON · TILELANG</text>
-  <text x="72" y="322" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="36" font-weight="800">COMPUTE × MEMORY × DATAFLOW</text>
+  <text x="72" y="322" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="29" font-weight="800" letter-spacing="0">COMPUTE × MEMORY × DATAFLOW</text>
   <text x="72" y="371" fill="#CBD8E4" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="600">从线程级执行到 Tile-level DSL</text>
 
   <rect x="72" y="452" width="126" height="54" rx="4" fill="#193B42" stroke="#76E6C2" stroke-width="2"/>
