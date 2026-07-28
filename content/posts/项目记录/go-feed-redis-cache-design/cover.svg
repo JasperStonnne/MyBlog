@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Go 项目反推：Feed 流系统实战——Redis 缓存设计</title>
+  <desc id="desc">A Go Feed system Redis cover showing cache, Lua rate limiting, and ZSET ranking.</desc>
+  <rect width="1200" height="675" fill="#14262A"/>
+  <path d="M0 0h1200v86H0z" fill="#43B5A4"/>
+  <path d="M0 86h1200v8H0z" fill="#F0C568"/>
+  <path d="M84 126h1032v465H84z" fill="#1D3236" stroke="#DCE9E7" stroke-opacity=".28" stroke-width="2"/>
+
+  <text x="136" y="210" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="62" font-weight="700">Redis 缓存设计</text>
+  <text x="140" y="282" fill="#DCE9E7" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="500">Cache · Lua · ZSET</text>
+  <text x="140" y="350" fill="#70D6C8" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="27" font-weight="500">一致性 · 高并发防护 · 原子限流 · 热榜</text>
+  <path d="M136 522h430" stroke="#F0C568" stroke-width="10" stroke-linecap="round"/>
+  <text x="140" y="474" fill="#F0C568" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="700">GO FEED SYSTEM · JASPER SAO</text>
+
+  <g transform="translate(680 154)">
+    <ellipse cx="180" cy="54" rx="164" ry="46" fill="#263E43" stroke="#E87961" stroke-width="5"/>
+    <path d="M16 54v244c0 27 73 48 164 48s164-21 164-48V54" fill="#101D20" stroke="#E87961" stroke-width="5"/>
+    <path d="M16 135c0 27 73 48 164 48s164-21 164-48M16 216c0 27 73 48 164 48s164-21 164-48" fill="none" stroke="#E87961" stroke-width="4"/>
+    <ellipse cx="180" cy="54" rx="164" ry="46" fill="#263E43" stroke="#E87961" stroke-width="5"/>
+    <text x="127" y="66" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="32" font-weight="700">Redis</text>
+    <rect x="70" y="105" width="220" height="42" rx="8" fill="#1D3236" stroke="#70D6C8" stroke-width="2"/>
+    <text x="105" y="134" fill="#70D6C8" font-family="Inter, sans-serif" font-size="20" font-weight="700">STRING · TTL</text>
+    <rect x="70" y="186" width="220" height="42" rx="8" fill="#1D3236" stroke="#F0C568" stroke-width="2"/>
+    <text x="109" y="215" fill="#F0C568" font-family="Inter, sans-serif" font-size="20" font-weight="700">LUA · ATOMIC</text>
+    <rect x="70" y="267" width="220" height="42" rx="8" fill="#1D3236" stroke="#70D6C8" stroke-width="2"/>
+    <text x="101" y="296" fill="#70D6C8" font-family="Inter, sans-serif" font-size="20" font-weight="700">ZSET · RANK</text>
+  </g>
+</svg>
