@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Go 项目反推：Feed 流系统实战——消息队列与异步架构</title>
+  <desc id="desc">A Go Feed system cover showing RabbitMQ exchanges, queues, workers, and asynchronous message flow.</desc>
+  <rect width="1200" height="675" fill="#14262A"/>
+  <path d="M0 0h1200v86H0z" fill="#43B5A4"/>
+  <path d="M0 86h1200v8H0z" fill="#F0C568"/>
+  <path d="M84 126h1032v465H84z" fill="#1D3236" stroke="#DCE9E7" stroke-opacity=".28" stroke-width="2"/>
+
+  <text x="136" y="210" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="56" font-weight="700">消息队列与异步架构</text>
+  <text x="140" y="282" fill="#DCE9E7" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="500">RabbitMQ · Outbox · DLX</text>
+  <text x="140" y="350" fill="#70D6C8" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="27" font-weight="500">路由 · 重试 · 削峰 · 解耦</text>
+  <path d="M136 522h430" stroke="#F0C568" stroke-width="10" stroke-linecap="round"/>
+  <text x="140" y="474" fill="#F0C568" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="700">GO FEED SYSTEM · JASPER SAO</text>
+
+  <g transform="translate(660 164)">
+    <rect x="0" y="108" width="152" height="98" rx="18" fill="#263E43" stroke="#70D6C8" stroke-width="4"/>
+    <text x="34" y="151" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="22" font-weight="700">API</text>
+    <text x="25" y="180" fill="#70D6C8" font-family="Inter, sans-serif" font-size="16" font-weight="600">Producer</text>
+
+    <path d="M163 157h62" fill="none" stroke="#F0C568" stroke-width="5" stroke-linecap="round"/>
+    <path d="m216 146 18 11-18 11" fill="none" stroke="#F0C568" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <circle cx="310" cy="157" r="73" fill="#101D20" stroke="#E87961" stroke-width="5"/>
+    <path d="M277 128h66v58h-66z" fill="#263E43" stroke="#E87961" stroke-width="3"/>
+    <path d="m277 128 33 27 33-27" fill="none" stroke="#E87961" stroke-width="3"/>
+    <text x="274" y="248" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="19" font-weight="700">RabbitMQ</text>
+
+    <path d="M386 157h62" fill="none" stroke="#F0C568" stroke-width="5" stroke-linecap="round"/>
+    <path d="m439 146 18 11-18 11" fill="none" stroke="#F0C568" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="468" y="108" width="152" height="98" rx="18" fill="#263E43" stroke="#70D6C8" stroke-width="4"/>
+    <text x="497" y="151" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="22" font-weight="700">Worker</text>
+    <text x="502" y="180" fill="#70D6C8" font-family="Inter, sans-serif" font-size="16" font-weight="600">Consumer</text>
+
+    <rect x="209" y="302" width="202" height="56" rx="12" fill="#1D3236" stroke="#DCE9E7" stroke-opacity=".7" stroke-width="2"/>
+    <text x="234" y="338" fill="#DCE9E7" font-family="Inter, sans-serif" font-size="18" font-weight="700">EXCHANGE → QUEUE</text>
+  </g>
+</svg>
