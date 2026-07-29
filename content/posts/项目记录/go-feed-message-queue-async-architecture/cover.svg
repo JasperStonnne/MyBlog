@@ -12,7 +12,7 @@
   <path d="M136 522h430" stroke="#F0C568" stroke-width="10" stroke-linecap="round"/>
   <text x="140" y="474" fill="#F0C568" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="700">GO FEED SYSTEM · JASPER SAO</text>
 
-  <g transform="translate(660 164)">
+  <g transform="translate(560 164)">
     <rect x="0" y="108" width="152" height="98" rx="18" fill="#263E43" stroke="#70D6C8" stroke-width="4"/>
     <text x="34" y="151" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="22" font-weight="700">API</text>
     <text x="25" y="180" fill="#70D6C8" font-family="Inter, sans-serif" font-size="16" font-weight="600">Producer</text>
