@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Go 项目反推：Feed 流设计</title>
+  <desc id="desc">Feed items flow through cursor pagination, ranking, and caching.</desc>
+  <rect width="1200" height="675" fill="#14262A"/>
+  <path d="M0 0h1200v86H0z" fill="#43B5A4"/>
+  <path d="M0 86h1200v8H0z" fill="#F0C568"/>
+  <path d="M84 126h1032v465H84z" fill="#1D3236" stroke="#DCE9E7" stroke-opacity=".28" stroke-width="2"/>
+  <text x="136" y="210" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="62" font-weight="700">Feed 流设计</text>
+  <text x="140" y="282" fill="#DCE9E7" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="500">Cursor · Ranking · Cache</text>
+  <text x="140" y="350" fill="#70D6C8" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="27" font-weight="500">推拉模型 · 游标分页 · 三级缓存</text>
+  <path d="M136 522h430" stroke="#F0C568" stroke-width="10" stroke-linecap="round"/>
+  <text x="140" y="474" fill="#F0C568" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="700">GO FEED SYSTEM · JASPER SAO</text>
+  <g transform="translate(665 157)">
+    <rect width="402" height="372" fill="#101D20" stroke="#43B5A4" stroke-width="2"/>
+    <rect x="36" y="35" width="330" height="66" rx="9" fill="#263E43" stroke="#70D6C8" stroke-width="3"/>
+    <rect x="36" y="129" width="330" height="66" rx="9" fill="#263E43" stroke="#F0C568" stroke-width="3"/>
+    <rect x="36" y="223" width="330" height="66" rx="9" fill="#263E43" stroke="#E87961" stroke-width="3"/>
+    <text x="65" y="77" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="24" font-weight="700">LATEST · CURSOR 103</text>
+    <text x="65" y="171" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="24" font-weight="700">HOT · SCORE 98.6</text>
+    <text x="65" y="265" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="24" font-weight="700">FOLLOWING · CACHE</text>
+    <path d="M202 101v28M202 195v28M182 115l20 16 20-16M182 209l20 16 20-16" fill="none" stroke="#DCE9E7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="116" y="337" fill="#70D6C8" font-family="Inter, sans-serif" font-size="21" font-weight="700">Redis · Singleflight</text>
+  </g>
+</svg>
