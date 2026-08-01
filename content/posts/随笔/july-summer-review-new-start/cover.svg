@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">暑假七月总结：从期末月到新起点</title>
+  <desc id="desc">A summer reflection cover with sunset, sea, and a path toward a new starting point.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#17324D"/>
+      <stop offset="0.62" stop-color="#4F7790"/>
+      <stop offset="1" stop-color="#E7A36B"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#17384A"/>
+      <stop offset="1" stop-color="#2D6174"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#sky)"/>
+  <circle cx="978" cy="201" r="92" fill="#FFD38A" opacity="0.88"/>
+  <path d="M0 438C171 412 315 456 479 425C665 390 796 420 955 392C1050 375 1127 370 1200 378V675H0Z" fill="url(#sea)"/>
+  <path d="M0 516C168 482 331 532 495 498C667 463 806 492 984 459C1069 443 1139 445 1200 452" fill="none" stroke="#A8D3D6" stroke-opacity="0.42" stroke-width="5"/>
+  <path d="M725 675C760 604 813 556 875 515C934 476 1004 445 1083 421" fill="none" stroke="#F5C77D" stroke-width="15" stroke-linecap="round"/>
+  <path d="M1061 406l31 12-17 29" fill="none" stroke="#F5C77D" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="78" y="82" width="1044" height="511" rx="3" fill="none" stroke="#EDF3F2" stroke-opacity="0.24" stroke-width="2"/>
+  <text x="126" y="227" fill="#F5F0E8" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="69" font-weight="700">暑假七月总结</text>
+  <text x="130" y="315" fill="#FFD38A" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="42" font-weight="700">从期末月到新起点</text>
+  <text x="130" y="382" fill="#D9E8E7" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="500">复盘 · 专注 · 学习 · 向前</text>
+  <path d="M126 488h335" stroke="#ED8D6B" stroke-width="10" stroke-linecap="round"/>
+  <text x="130" y="454" fill="#ED8D6B" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" letter-spacing="3">JULY 2026 · JASPER SAO</text>
+</svg>
