@@ -1,5 +1,5 @@
 ---
-title: Reactor 与 epoll：百万并发网络服务器课后笔记
+title: Reactor 与 epoll：百万并发网络服务器
 slug: reactor-epoll-million-connections
 description: 从课堂 Echo Server 代码梳理 Reactor 事件流转、epoll 使用方式，以及百万连接测试中的 fd、端口、内存与内核限制
 date: 2026-08-08T00:00:00+08:00
