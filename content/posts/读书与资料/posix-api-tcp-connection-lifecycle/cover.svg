@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">POSIX API 与 TCP 连接生命周期</title>
+  <desc id="desc">从 Socket API 到 TCP 三次握手、数据传输和四次挥手。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171329"/>
+      <stop offset="1" stop-color="#251A3D"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1090" cy="80" r="240" fill="#7C3AED" opacity=".12"/>
+  <circle cx="850" cy="650" r="290" fill="#14B8A6" opacity=".08"/>
+  <path d="M0 0h1200v18H0z" fill="#F59E0B"/>
+  <path d="M0 18h1200v5H0z" fill="#FB7185"/>
+
+  <g font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif">
+    <text x="86" y="145" fill="#FBBF24" font-size="24" font-weight="700" letter-spacing="3">LINUX NETWORK PROGRAMMING</text>
+    <text x="82" y="242" fill="#FFFFFF" font-size="65" font-weight="800">POSIX API</text>
+    <text x="84" y="325" fill="#DDD6FE" font-size="49" font-weight="700">与 TCP 连接生命周期</text>
+    <text x="86" y="400" fill="#A7F3D0" font-size="24" font-weight="500">socket · handshake · transfer · close</text>
+    <path d="M86 476h410" stroke="#F59E0B" stroke-width="9" stroke-linecap="round"/>
+    <text x="86" y="530" fill="#FDA4AF" font-size="22" font-weight="700">JASPER SAO · BACKEND NOTES</text>
+  </g>
+
+  <g transform="translate(650 102)" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif">
+    <rect width="460" height="470" rx="28" fill="#100D20" stroke="#8B5CF6" stroke-opacity=".7" stroke-width="2"/>
+    <text x="34" y="49" fill="#A78BFA" font-size="18" font-weight="700" letter-spacing="2">TCP LIFECYCLE</text>
+
+    <g font-size="17" font-weight="700" text-anchor="middle">
+      <rect x="38" y="85" width="158" height="54" rx="12" fill="#2A2143" stroke="#C4B5FD"/>
+      <text x="117" y="118" fill="#EDE9FE">socket / bind</text>
+      <rect x="264" y="85" width="158" height="54" rx="12" fill="#3B1F55" stroke="#FB7185"/>
+      <text x="343" y="118" fill="#FCE7F3">三次握手</text>
+      <rect x="264" y="219" width="158" height="54" rx="12" fill="#123B3A" stroke="#5EEAD4"/>
+      <text x="343" y="252" fill="#CCFBF1">send / recv</text>
+      <rect x="38" y="219" width="158" height="54" rx="12" fill="#3A2A15" stroke="#FBBF24"/>
+      <text x="117" y="252" fill="#FEF3C7">四次挥手</text>
+    </g>
+
+    <path d="M197 112h63" stroke="#FBBF24" stroke-width="4" stroke-linecap="round"/>
+    <path d="M248 102l13 10-13 10" fill="none" stroke="#FBBF24" stroke-width="4"/>
+    <path d="M343 141v73" stroke="#5EEAD4" stroke-width="4" stroke-linecap="round"/>
+    <path d="M333 202l10 13 10-13" fill="none" stroke="#5EEAD4" stroke-width="4"/>
+    <path d="M263 246h-62" stroke="#FB7185" stroke-width="4" stroke-linecap="round"/>
+    <path d="M213 236l-13 10 13 10" fill="none" stroke="#FB7185" stroke-width="4"/>
+
+    <path d="M38 319h384" stroke="#4C3F67" stroke-width="2"/>
+    <text x="38" y="355" fill="#FBBF24" font-size="16" font-weight="700">SEQ</text>
+    <text x="94" y="355" fill="#D8B4FE" font-size="15">顺序与确认</text>
+    <text x="240" y="355" fill="#5EEAD4" font-size="16" font-weight="700">WINDOW</text>
+    <text x="326" y="355" fill="#D8B4FE" font-size="15">流量控制</text>
+    <text x="38" y="398" fill="#FB7185" font-size="16" font-weight="700">RETRY</text>
+    <text x="100" y="398" fill="#D8B4FE" font-size="15">可靠传输</text>
+    <text x="240" y="398" fill="#F59E0B" font-size="16" font-weight="700">STATE</text>
+    <text x="303" y="398" fill="#D8B4FE" font-size="15">连接迁移</text>
+    <text x="230" y="444" fill="#8B83A7" font-size="16" text-anchor="middle">API 调用 → 内核协议栈 → TCP 状态机</text>
+  </g>
+</svg>
