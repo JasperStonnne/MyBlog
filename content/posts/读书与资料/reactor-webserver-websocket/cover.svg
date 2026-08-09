@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Reactor 在 WebServer 与 WebSocket 中的应用</title>
+  <desc id="desc">Reactor 连接 HTTP 与 WebSocket 协议层的技术文章封面</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071426"/>
+      <stop offset="1" stop-color="#123b55"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#43d9ad"/>
+      <stop offset="1" stop-color="#5aa7ff"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g opacity=".16" stroke="#8bc8e8">
+    <path d="M0 105h1200M0 210h1200M0 315h1200M0 420h1200M0 525h1200"/>
+    <path d="M100 0v630M300 0v630M500 0v630M700 0v630M900 0v630M1100 0v630"/>
+  </g>
+  <g transform="translate(760 115)" fill="none" stroke="url(#flow)" stroke-width="5" filter="url(#glow)">
+    <rect x="0" y="120" width="155" height="92" rx="18"/>
+    <rect x="235" y="10" width="155" height="92" rx="18"/>
+    <rect x="235" y="230" width="155" height="92" rx="18"/>
+    <path d="M155 166h48q32 0 32-32V76M155 166h48q32 0 32 32v78"/>
+    <circle cx="78" cy="166" r="18" fill="#43d9ad" stroke="none"/>
+  </g>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans SC',sans-serif" fill="#eef8ff">
+    <text x="76" y="132" font-size="28" letter-spacing="5" fill="#43d9ad">NETWORK PROGRAMMING</text>
+    <text x="76" y="226" font-size="64" font-weight="700">Reactor</text>
+    <text x="76" y="302" font-size="48" font-weight="650">WebServer 与 WebSocket</text>
+    <text x="76" y="366" font-size="30" fill="#b9d6e7">LT / ET · HTTP · sendfile · WebSocket</text>
+    <text x="838" y="287" font-size="22" text-anchor="middle">Reactor</text>
+    <text x="1073" y="177" font-size="22" text-anchor="middle">HTTP</text>
+    <text x="1073" y="397" font-size="22" text-anchor="middle">WS</text>
+  </g>
+  <rect x="76" y="455" width="500" height="4" rx="2" fill="url(#flow)"/>
+</svg>
