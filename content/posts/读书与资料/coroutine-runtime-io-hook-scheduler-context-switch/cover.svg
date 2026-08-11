@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">协程运行时：IO Hook、调度器与汇编上下文切换</title>
+  <desc id="desc">I/O Hook 将阻塞调用交给协程调度器，调度器通过 epoll 和汇编上下文切换恢复协程。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08131F"/>
+      <stop offset="1" stop-color="#122B3B"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#5EEAD4"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1085" cy="80" r="250" fill="#14B8A6" opacity=".11"/>
+  <circle cx="810" cy="680" r="310" fill="#8B5CF6" opacity=".09"/>
+  <path d="M0 0h1200v18H0z" fill="#22D3EE"/>
+  <path d="M0 18h1200v5H0z" fill="#A78BFA"/>
+
+  <g font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif">
+    <text x="76" y="130" fill="#67E8F9" font-size="23" font-weight="700" letter-spacing="3">COROUTINE RUNTIME</text>
+    <text x="72" y="224" fill="#FFFFFF" font-size="61" font-weight="800">协程运行时</text>
+    <text x="76" y="302" fill="#C4B5FD" font-size="35" font-weight="700">IO Hook · 调度器 · 汇编切换</text>
+    <text x="76" y="365" fill="#99F6E4" font-size="22" font-weight="500">read / write → epoll → yield / resume</text>
+    <path d="M76 428h405" stroke="#22D3EE" stroke-width="9" stroke-linecap="round"/>
+    <text x="76" y="487" fill="#A5B4FC" font-size="19" font-weight="700">READY · WAITING · SLEEPING</text>
+    <text x="76" y="544" fill="#64748B" font-size="18">JASPER SAO · BACKEND NOTES</text>
+  </g>
+
+  <g transform="translate(625 96)" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif">
+    <rect width="500" height="485" rx="30" fill="#07101A" stroke="#155E75" stroke-width="2"/>
+    <text x="32" y="47" fill="#67E8F9" font-size="18" font-weight="700" letter-spacing="2">SCHEDULER</text>
+
+    <g font-size="16" font-weight="700" text-anchor="middle">
+      <rect x="35" y="91" width="125" height="56" rx="12" fill="#123147" stroke="#38BDF8"/>
+      <text x="97" y="125" fill="#E0F2FE">read()</text>
+      <rect x="188" y="91" width="125" height="56" rx="12" fill="#28214A" stroke="#A78BFA"/>
+      <text x="250" y="125" fill="#EDE9FE">yield</text>
+      <rect x="340" y="91" width="125" height="56" rx="12" fill="#123B3A" stroke="#5EEAD4"/>
+      <text x="402" y="125" fill="#CCFBF1">epoll</text>
+    </g>
+    <path d="M160 119h23M313 119h22" stroke="#5EEAD4" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <circle cx="250" cy="268" r="72" fill="#102536" stroke="#22D3EE" stroke-width="4" filter="url(#glow)"/>
+    <circle cx="250" cy="268" r="48" fill="#07101A" stroke="#A78BFA" stroke-width="2"/>
+    <text x="250" y="261" fill="#FFFFFF" font-size="19" font-weight="800" text-anchor="middle">switch</text>
+    <text x="250" y="289" fill="#A5B4FC" font-size="14" font-weight="600" text-anchor="middle">rsp · rip · rbx</text>
+
+    <g font-size="14" font-weight="700" text-anchor="middle">
+      <rect x="35" y="391" width="125" height="48" rx="10" fill="#123147" stroke="#38BDF8"/>
+      <text x="97" y="421" fill="#E0F2FE">READY</text>
+      <rect x="188" y="391" width="125" height="48" rx="10" fill="#302642" stroke="#C4B5FD"/>
+      <text x="250" y="421" fill="#EDE9FE">WAITING</text>
+      <rect x="340" y="391" width="125" height="48" rx="10" fill="#14352E" stroke="#5EEAD4"/>
+      <text x="402" y="421" fill="#CCFBF1">SLEEPING</text>
+    </g>
+    <path d="M97 386l112-75M250 386v-39M402 386L291 311" stroke="#5EEAD4" stroke-width="2.5" stroke-dasharray="7 7"/>
+  </g>
+</svg>
