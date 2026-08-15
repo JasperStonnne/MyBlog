@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">DPDK 用户态协议栈设计与实现</title>
+  <desc id="desc">从网卡队列经 DPDK 到用户态 TCP/IP 协议栈的技术文章封面</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06121e"/>
+      <stop offset="1" stop-color="#123449"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#45e0b5"/>
+      <stop offset="1" stop-color="#56a8ff"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g opacity=".13" stroke="#8bc8e8">
+    <path d="M0 105h1200M0 210h1200M0 315h1200M0 420h1200M0 525h1200"/>
+    <path d="M100 0v630M300 0v630M500 0v630M700 0v630M900 0v630M1100 0v630"/>
+  </g>
+  <g transform="translate(742 104)" fill="none" stroke="url(#accent)" stroke-width="4" filter="url(#glow)">
+    <rect x="0" y="148" width="112" height="76" rx="12"/>
+    <rect x="174" y="148" width="112" height="76" rx="12"/>
+    <rect x="348" y="18" width="112" height="76" rx="12"/>
+    <rect x="348" y="148" width="112" height="76" rx="12"/>
+    <rect x="348" y="278" width="112" height="76" rx="12"/>
+    <path d="M112 186h62M286 186h30q32 0 32-32V56M286 186h62M286 186h30q32 0 32 32v98"/>
+    <circle cx="56" cy="186" r="13" fill="#45e0b5" stroke="none"/>
+  </g>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans SC',sans-serif" fill="#eef8ff">
+    <text x="76" y="128" font-size="27" letter-spacing="5" fill="#45e0b5">NETWORK FAST PATH</text>
+    <text x="76" y="228" font-size="78" font-weight="750">DPDK</text>
+    <text x="76" y="304" font-size="48" font-weight="650">用户态协议栈</text>
+    <text x="76" y="365" font-size="31" fill="#b9d6e7">NIC · PMD · rte_mbuf · TCP/IP</text>
+    <text x="798" y="322" font-size="20" text-anchor="middle">NIC</text>
+    <text x="972" y="322" font-size="20" text-anchor="middle">DPDK</text>
+    <text x="1146" y="192" font-size="19" text-anchor="middle">TCP</text>
+    <text x="1146" y="322" font-size="19" text-anchor="middle">UDP</text>
+    <text x="1146" y="452" font-size="19" text-anchor="middle">APP</text>
+  </g>
+  <rect x="76" y="454" width="520" height="4" rx="2" fill="url(#accent)"/>
+</svg>
