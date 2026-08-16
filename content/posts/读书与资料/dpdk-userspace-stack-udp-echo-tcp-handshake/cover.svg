@@ -18,7 +18,7 @@
 
   <g font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif">
     <text x="72" y="120" fill="#67E8F9" font-size="22" font-weight="700" letter-spacing="3">DPDK · USERSPACE NETWORKING</text>
-    <text x="70" y="218" fill="#FFFFFF" font-size="58" font-weight="800">DPDK 用户态协议栈（二）</text>
+    <text x="70" y="218" fill="#FFFFFF" font-size="50" font-weight="800">DPDK 用户态协议栈（二）</text>
     <text x="72" y="292" fill="#A7F3D0" font-size="35" font-weight="700">从收包到 UDP Echo 与 TCP 握手</text>
     <text x="72" y="356" fill="#93C5FD" font-size="21">RX Queue → Header → Checksum → TX Queue</text>
     <path d="M72 418h485" stroke="#22D3EE" stroke-width="9" stroke-linecap="round"/>
