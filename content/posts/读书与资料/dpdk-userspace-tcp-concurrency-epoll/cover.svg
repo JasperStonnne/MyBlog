@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">DPDK 用户态 TCP 协议栈（四）：并发与自实现 epoll</title>
+  <desc id="desc">TCP stream 的状态变化通过 epoll 就绪队列唤醒应用线程。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111F"/>
+      <stop offset="1" stop-color="#102A3A"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#38BDF8"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1065" cy="80" r="260" fill="#14B8A6" opacity=".10"/>
+  <circle cx="830" cy="710" r="330" fill="#2563EB" opacity=".10"/>
+  <path d="M0 0h1200v18H0z" fill="#22D3EE"/>
+  <path d="M0 18h1200v5H0z" fill="#34D399"/>
+
+  <g font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif">
+    <text x="72" y="120" fill="#67E8F9" font-size="22" font-weight="700" letter-spacing="3">DPDK · USERSPACE NETWORKING</text>
+    <text x="70" y="218" fill="#FFFFFF" font-size="50" font-weight="800">DPDK 用户态 TCP 协议栈（四）</text>
+    <text x="72" y="292" fill="#A7F3D0" font-size="35" font-weight="700">并发与自实现 epoll</text>
+    <text x="72" y="356" fill="#93C5FD" font-size="21">stream → fd → ready list → application</text>
+    <path d="M72 418h485" stroke="#22D3EE" stroke-width="9" stroke-linecap="round"/>
+    <text x="72" y="478" fill="#94A3B8" font-size="18" font-weight="700">TCP · EPOLL · STREAM · READY LIST</text>
+    <text x="72" y="548" fill="#64748B" font-size="18">JASPER SAO · BACKEND NOTES</text>
+  </g>
+
+  <g transform="translate(685 104)" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif">
+    <rect width="438" height="468" rx="28" fill="#06101A" stroke="#155E75" stroke-width="2"/>
+    <text x="28" y="48" fill="#67E8F9" font-size="17" font-weight="700" letter-spacing="2">EVENT PATH</text>
+    <g font-size="17" font-weight="700" text-anchor="middle">
+      <rect x="32" y="85" width="150" height="58" rx="12" fill="#123147" stroke="#38BDF8"/>
+      <text x="107" y="121" fill="#E0F2FE">TCP stream</text>
+      <rect x="256" y="85" width="150" height="58" rx="12" fill="#123B3A" stroke="#34D399"/>
+      <text x="331" y="121" fill="#D1FAE5">epitem</text>
+      <rect x="256" y="205" width="150" height="58" rx="12" fill="#272044" stroke="#A78BFA"/>
+      <text x="331" y="241" fill="#EDE9FE">rdlist</text>
+      <rect x="32" y="205" width="150" height="58" rx="12" fill="#123147" stroke="#38BDF8"/>
+      <text x="107" y="241" fill="#E0F2FE">epoll_wait</text>
+    </g>
+    <path d="M184 114h64" stroke="#38BDF8" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M331 146v50" stroke="#38BDF8" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M254 234h-64" stroke="#38BDF8" stroke-width="3" marker-end="url(#arrow)"/>
+    <g transform="translate(31 326)" font-size="15" font-weight="700" text-anchor="middle">
+      <rect width="82" height="48" rx="9" fill="#0E3347" stroke="#22D3EE"/><text x="41" y="30" fill="#CFFAFE">fd</text>
+      <rect x="97" width="82" height="48" rx="9" fill="#143A45" stroke="#2DD4BF"/><text x="138" y="30" fill="#CCFBF1">rbr</text>
+      <rect x="194" width="82" height="48" rx="9" fill="#27314D" stroke="#60A5FA"/><text x="235" y="30" fill="#DBEAFE">cond</text>
+      <rect x="291" width="82" height="48" rx="9" fill="#302642" stroke="#A78BFA"/><text x="332" y="30" fill="#EDE9FE">app</text>
+    </g>
+    <text x="219" y="426" fill="#64748B" font-size="15" text-anchor="middle">EPOLLIN · callback · wakeup · recv</text>
+  </g>
+</svg>
