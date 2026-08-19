@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">io_uring（一）：与 epoll 一较高下</title>
+  <desc id="desc">对比 epoll 的就绪通知与 io_uring 的完成通知。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111F"/>
+      <stop offset="1" stop-color="#172554"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#38BDF8"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1060" cy="90" r="270" fill="#7C3AED" opacity=".13"/>
+  <circle cx="820" cy="700" r="340" fill="#0891B2" opacity=".12"/>
+  <path d="M0 0h1200v18H0z" fill="#22D3EE"/>
+  <path d="M0 18h1200v5H0z" fill="#8B5CF6"/>
+
+  <g font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif">
+    <text x="72" y="120" fill="#67E8F9" font-size="22" font-weight="700" letter-spacing="3">LINUX · ASYNC I/O</text>
+    <text x="70" y="220" fill="#FFFFFF" font-size="58" font-weight="800">io_uring（一）</text>
+    <text x="72" y="296" fill="#C4B5FD" font-size="39" font-weight="700">与 epoll 一较高下</text>
+    <text x="72" y="363" fill="#93C5FD" font-size="21">readiness notification  vs  completion notification</text>
+    <path d="M72 424h500" stroke="#22D3EE" stroke-width="9" stroke-linecap="round"/>
+    <text x="72" y="484" fill="#94A3B8" font-size="18" font-weight="700">SQE · CQE · REACTOR · PROACTOR</text>
+    <text x="72" y="550" fill="#64748B" font-size="18">JASPER SAO · BACKEND NOTES</text>
+  </g>
+
+  <g transform="translate(690 112)" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif">
+    <rect width="432" height="450" rx="28" fill="#06101A" stroke="#334155" stroke-width="2"/>
+    <text x="28" y="48" fill="#67E8F9" font-size="17" font-weight="700" letter-spacing="2">EVENT SEMANTICS</text>
+
+    <rect x="28" y="82" width="376" height="130" rx="16" fill="#0C2A3A" stroke="#0891B2"/>
+    <text x="52" y="118" fill="#67E8F9" font-size="20" font-weight="800">epoll</text>
+    <text x="52" y="151" fill="#E0F2FE" font-size="17">EPOLLIN → ready to read</text>
+    <text x="52" y="181" fill="#94A3B8" font-size="15">application calls recv()</text>
+
+    <rect x="28" y="238" width="376" height="130" rx="16" fill="#241B45" stroke="#8B5CF6"/>
+    <text x="52" y="274" fill="#C4B5FD" font-size="20" font-weight="800">io_uring</text>
+    <text x="52" y="307" fill="#EDE9FE" font-size="17">READ CQE → operation complete</text>
+    <text x="52" y="337" fill="#94A3B8" font-size="15">result available in cqe-&gt;res</text>
+
+    <path d="M216 214v18" stroke="#38BDF8" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="216" y="410" fill="#64748B" font-size="15" text-anchor="middle">READY  ≠  COMPLETE</text>
+  </g>
+</svg>
