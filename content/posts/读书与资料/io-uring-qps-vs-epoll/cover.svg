@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">io_uring（二）：QPS 实测，真的比 epoll 强吗？</title>
+  <desc id="desc">用 TCP Echo 压测对比 io_uring 与 epoll 的 QPS 表现。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111F"/>
+      <stop offset="1" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="bar1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1060" cy="90" r="270" fill="#7C3AED" opacity=".13"/>
+  <circle cx="820" cy="700" r="340" fill="#0891B2" opacity=".12"/>
+  <path d="M0 0h1200v18H0z" fill="#22D3EE"/>
+  <path d="M0 18h1200v5H0z" fill="#8B5CF6"/>
+
+  <g font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif">
+    <text x="72" y="120" fill="#67E8F9" font-size="22" font-weight="700" letter-spacing="3">LINUX · NETWORK BENCHMARK</text>
+    <text x="70" y="220" fill="#FFFFFF" font-size="58" font-weight="800">io_uring（二）</text>
+    <text x="72" y="296" fill="#C4B5FD" font-size="39" font-weight="700">QPS 实测，真的比 epoll 强吗？</text>
+    <text x="72" y="363" fill="#93C5FD" font-size="21">64—1024 bytes · TCP Echo · 1,000,000 requests</text>
+    <path d="M72 424h500" stroke="#22D3EE" stroke-width="9" stroke-linecap="round"/>
+    <text x="72" y="484" fill="#94A3B8" font-size="18" font-weight="700">QPS · BLOCKING I/O · SHORT READ/WRITE</text>
+    <text x="72" y="550" fill="#64748B" font-size="18">JASPER SAO · BACKEND NOTES</text>
+  </g>
+
+  <g transform="translate(700 112)" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif">
+    <rect width="422" height="450" rx="28" fill="#06101A" stroke="#334155" stroke-width="2"/>
+    <text x="28" y="48" fill="#67E8F9" font-size="17" font-weight="700" letter-spacing="2">QPS COMPARISON</text>
+    <text x="28" y="91" fill="#94A3B8" font-size="15">1 KB payload</text>
+
+    <text x="28" y="142" fill="#E0F2FE" font-size="18" font-weight="700">io_uring</text>
+    <rect x="28" y="160" width="345" height="42" rx="10" fill="#0C2A3A"/>
+    <rect x="28" y="160" width="322" height="42" rx="10" fill="url(#bar1)"/>
+    <text x="335" y="188" fill="#FFFFFF" font-size="17" font-weight="800" text-anchor="end">227,790</text>
+
+    <text x="28" y="250" fill="#EDE9FE" font-size="18" font-weight="700">epoll</text>
+    <rect x="28" y="268" width="345" height="42" rx="10" fill="#241B45"/>
+    <rect x="28" y="268" width="271" height="42" rx="10" fill="url(#bar2)"/>
+    <text x="284" y="296" fill="#FFFFFF" font-size="17" font-weight="800" text-anchor="end">191,717</text>
+
+    <path d="M28 350h345" stroke="#334155" stroke-width="2"/>
+    <text x="28" y="389" fill="#67E8F9" font-size="20" font-weight="800">+18.8%</text>
+    <text x="112" y="389" fill="#94A3B8" font-size="15">in this test environment</text>
+    <text x="28" y="421" fill="#64748B" font-size="14">results depend on implementation &amp; workload</text>
+  </g>
+</svg>
