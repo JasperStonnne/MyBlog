@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07131f"/>
+      <stop offset="1" stop-color="#102a43"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#34d399"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1090" cy="70" r="230" fill="#0d9488" opacity="0.12"/>
+  <circle cx="90" cy="590" r="190" fill="#0891b2" opacity="0.10"/>
+
+  <text x="80" y="105" fill="#6ee7b7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="28" font-weight="700">KV STORE · PROTOCOL &amp; ARRAY</text>
+  <text x="80" y="188" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="58" font-weight="800">KV 存储项目</text>
+  <text x="80" y="244" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="30">协议层与数组存储</text>
+
+  <rect x="70" y="318" width="250" height="108" rx="18" fill="#0f1f2e" stroke="#34d399" stroke-width="2"/>
+  <text x="195" y="363" text-anchor="middle" fill="#f8fafc" font-family="ui-monospace, monospace" font-size="25" font-weight="700">SET Key Value</text>
+  <text x="195" y="398" text-anchor="middle" fill="#94a3b8" font-family="ui-monospace, monospace" font-size="19">command</text>
+
+  <path d="M320 372 H430" stroke="url(#accent)" stroke-width="4"/>
+  <path d="M414 360 L430 372 L414 384" fill="none" stroke="#22d3ee" stroke-width="4"/>
+
+  <rect x="430" y="318" width="340" height="108" rx="18" fill="#0f1f2e" stroke="#22d3ee" stroke-width="2"/>
+  <text x="600" y="359" text-anchor="middle" fill="#f8fafc" font-family="ui-monospace, monospace" font-size="24" font-weight="700">kvs_protocol()</text>
+  <text x="600" y="396" text-anchor="middle" fill="#67e8f9" font-family="ui-monospace, monospace" font-size="18">split → filter → dispatch</text>
+
+  <path d="M770 372 H880" stroke="url(#accent)" stroke-width="4"/>
+  <path d="M864 360 L880 372 L864 384" fill="none" stroke="#34d399" stroke-width="4"/>
+
+  <rect x="880" y="318" width="250" height="108" rx="18" fill="#0f1f2e" stroke="#34d399" stroke-width="2"/>
+  <text x="1005" y="359" text-anchor="middle" fill="#f8fafc" font-family="ui-monospace, monospace" font-size="24" font-weight="700">key → value</text>
+  <text x="1005" y="396" text-anchor="middle" fill="#94a3b8" font-family="ui-monospace, monospace" font-size="19">array CRUD</text>
+
+  <rect x="316" y="492" width="568" height="72" rx="16" fill="#0b1724" stroke="url(#accent)" stroke-width="3"/>
+  <text x="600" y="537" text-anchor="middle" fill="#d1fae5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="23">SET · GET · DEL · MOD · EXIST</text>
+</svg>
