@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="1" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1080" cy="90" r="220" fill="#7c3aed" opacity="0.12"/>
+  <circle cx="80" cy="585" r="190" fill="#0891b2" opacity="0.12"/>
+
+  <text x="76" y="105" fill="#67e8f9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="26" font-weight="700">KV STORE · ENGINE EXTENSION</text>
+  <text x="76" y="184" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="54" font-weight="800">Hash 接入与多语言客户端</text>
+  <text x="76" y="235" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="25">从统一引擎契约继续扩展 SkipList</text>
+
+  <rect x="76" y="300" width="308" height="188" rx="22" fill="#0f172a" stroke="#22d3ee" stroke-width="3"/>
+  <text x="230" y="345" text-anchor="middle" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="27" font-weight="700">Hash</text>
+  <g fill="#22d3ee">
+    <rect x="118" y="378" width="46" height="46" rx="7"/><rect x="178" y="378" width="46" height="46" rx="7" opacity=".75"/><rect x="238" y="378" width="46" height="46" rx="7" opacity=".5"/><rect x="298" y="378" width="46" height="46" rx="7" opacity=".3"/>
+  </g>
+  <text x="230" y="460" text-anchor="middle" fill="#94a3b8" font-family="ui-monospace, monospace" font-size="18">SET · GET · DEL · MOD</text>
+
+  <path d="M405 394 H515" stroke="url(#accent)" stroke-width="4" stroke-dasharray="10 9"/>
+  <rect x="515" y="300" width="300" height="188" rx="22" fill="#0f172a" stroke="#818cf8" stroke-width="3"/>
+  <text x="665" y="345" text-anchor="middle" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="27" font-weight="700">TCP Protocol</text>
+  <text x="665" y="394" text-anchor="middle" fill="#c4b5fd" font-family="ui-monospace, monospace" font-size="20">HSET key value</text>
+  <text x="665" y="430" text-anchor="middle" fill="#94a3b8" font-family="ui-monospace, monospace" font-size="18">Go · Java · JS</text>
+  <text x="665" y="458" text-anchor="middle" fill="#94a3b8" font-family="ui-monospace, monospace" font-size="18">Python · Rust</text>
+
+  <path d="M835 394 H945" stroke="url(#accent)" stroke-width="4" stroke-dasharray="10 9"/>
+  <rect x="945" y="300" width="180" height="188" rx="22" fill="#0f172a" stroke="#a78bfa" stroke-width="3"/>
+  <text x="1035" y="345" text-anchor="middle" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="26" font-weight="700">SkipList</text>
+  <path d="M978 385 H1090 M995 415 H1090 M1018 445 H1090" stroke="#a78bfa" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="978" cy="385" r="7" fill="#c4b5fd"/><circle cx="995" cy="415" r="7" fill="#c4b5fd"/><circle cx="1018" cy="445" r="7" fill="#c4b5fd"/>
+
+  <text x="76" y="560" fill="#64748b" font-family="ui-monospace, monospace" font-size="20">KVEngine · lifecycle · protocol · range query</text>
+</svg>
