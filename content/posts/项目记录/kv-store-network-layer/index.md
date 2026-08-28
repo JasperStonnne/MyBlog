@@ -6,9 +6,15 @@ date: 2026-08-22T00:00:00+08:00
 draft: false
 image: cover.svg
 tags:
-  - 项目记录
+  - KV 存储
+  - 网络编程
+  - Reactor
+  - io_uring
+  - Proactor
+  - 协程
+  - C 语言
 categories:
-  - 后端开发
+  - 项目记录
 ---
 
 > 阅读目标：先恢复项目的整体认识，再通过带注释的代码块回忆具体实现。

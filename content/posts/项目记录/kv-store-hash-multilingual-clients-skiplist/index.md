@@ -6,9 +6,13 @@ date: 2026-08-26T00:00:00+08:00
 draft: false
 image: cover.svg
 tags:
-  - 项目记录
+  - KV 存储
+  - Hash
+  - SkipList
+  - 多语言客户端
+  - C 语言
 categories:
-  - 后端开发
+  - 项目记录
 ---
 
 > 阅读目标：在已有 Array、RBTree 和统一协议的基础上，重点复盘 Hash 如何真正成为一个可用的 KV 引擎；随后理解多语言客户端与服务端的边界，并按同一套接入模式继续扩展 SkipList。
