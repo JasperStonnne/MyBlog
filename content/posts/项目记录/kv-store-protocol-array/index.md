@@ -6,12 +6,7 @@ date: 2026-08-24T00:00:00+08:00
 draft: false
 image: cover.svg
 tags:
-  - KV 存储
-  - C 语言
-  - TCP
-  - 自定义协议
-  - 数据结构
-  - CRUD
+  - 项目记录
 categories:
   - 后端开发
 ---

@@ -6,11 +6,7 @@ date: 2026-08-26T00:00:00+08:00
 draft: false
 image: cover.svg
 tags:
-  - KV 存储
-  - Hash
-  - SkipList
-  - 多语言客户端
-  - C 语言
+  - 项目记录
 categories:
   - 后端开发
 ---

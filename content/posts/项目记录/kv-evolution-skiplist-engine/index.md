@@ -6,11 +6,7 @@ date: 2026-08-28T00:00:00+08:00
 draft: false
 image: cover.svg
 tags:
-  - KV 存储
-  - SkipList
-  - C 语言
-  - 数据结构
-  - 自动化测试
+  - 项目记录
 categories:
   - 后端开发
 ---
