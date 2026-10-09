@@ -1,0 +1,224 @@
+:root {
+  --content-width: 72rem;
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+main {
+  max-width: var(--content-width);
+}
+
+.prose {
+  line-height: 1.85;
+}
+
+.prose :where(h2, h3) {
+  scroll-margin-top: 5rem;
+}
+
+.prose :where(pre) {
+  border: 1px solid rgb(var(--color-neutral-200));
+  border-radius: 0.75rem;
+  box-shadow: none;
+}
+
+.dark .prose :where(pre) {
+  border-color: rgb(var(--color-neutral-700));
+}
+
+.home-intro,
+.home-projects {
+  margin-top: 3.5rem;
+}
+
+.home-intro {
+  max-width: 48rem;
+}
+
+.home-intro h2,
+.home-section-heading h2 {
+  margin: 0.25rem 0 0;
+  color: rgb(var(--color-neutral-900));
+  font-weight: 750;
+  letter-spacing: -0.025em;
+}
+
+.dark .home-intro h2,
+.dark .home-section-heading h2 {
+  color: rgb(var(--color-neutral-100));
+}
+
+.home-intro > p:last-child {
+  margin-top: 1rem;
+  color: rgb(var(--color-neutral-600));
+  line-height: 1.85;
+}
+
+.dark .home-intro > p:last-child {
+  color: rgb(var(--color-neutral-400));
+}
+
+.home-kicker {
+  margin: 0;
+  color: rgb(var(--color-primary-600));
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+}
+
+.home-section-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.home-section-heading > a {
+  color: rgb(var(--color-primary-600));
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.project-card {
+  position: relative;
+  display: flex;
+  min-height: 13rem;
+  flex-direction: column;
+  padding: 1.35rem;
+  border: 1px solid rgb(var(--color-neutral-200));
+  border-radius: 1rem;
+  color: inherit;
+  text-decoration: none;
+  transition: border-color 140ms ease, transform 140ms ease;
+}
+
+.project-card:hover {
+  border-color: rgb(var(--color-primary-500));
+  transform: translateY(-2px);
+}
+
+.dark .project-card {
+  border-color: rgb(var(--color-neutral-700));
+}
+
+.dark .project-card:hover {
+  border-color: rgb(var(--color-primary-500));
+}
+
+.project-card h3 {
+  margin: 1rem 0 0.45rem;
+  color: rgb(var(--color-neutral-900));
+  font-size: 1.3rem;
+  font-weight: 750;
+}
+
+.dark .project-card h3 {
+  color: rgb(var(--color-neutral-100));
+}
+
+.project-card p {
+  margin: 0;
+  color: rgb(var(--color-neutral-600));
+  line-height: 1.65;
+}
+
+.dark .project-card p {
+  color: rgb(var(--color-neutral-400));
+}
+
+.project-index,
+.project-stack {
+  color: rgb(var(--color-primary-600));
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.75rem;
+  font-weight: 650;
+}
+
+.project-stack {
+  margin-top: auto;
+  padding-top: 1.25rem;
+}
+
+.archive-year {
+  display: grid;
+  grid-template-columns: 5rem minmax(0, 1fr);
+  gap: 1.5rem;
+}
+
+.archive-year__title {
+  margin: 0;
+  color: rgb(var(--color-primary-600));
+  font-size: 1.35rem;
+  font-weight: 750;
+}
+
+.archive-year__items {
+  border-top: 1px solid rgb(var(--color-neutral-200));
+}
+
+.dark .archive-year__items {
+  border-color: rgb(var(--color-neutral-700));
+}
+
+.archive-item {
+  display: grid;
+  grid-template-columns: 3.5rem minmax(0, 1fr);
+  gap: 1rem;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid rgb(var(--color-neutral-200));
+  color: rgb(var(--color-neutral-800));
+  text-decoration: none;
+}
+
+.dark .archive-item {
+  border-color: rgb(var(--color-neutral-700));
+  color: rgb(var(--color-neutral-200));
+}
+
+.archive-item:hover span {
+  color: rgb(var(--color-primary-600));
+}
+
+.archive-item time {
+  color: rgb(var(--color-neutral-500));
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 640px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .archive-year {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

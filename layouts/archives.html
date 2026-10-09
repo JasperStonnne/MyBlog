@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <header>
+    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+    <p class="mt-2 text-neutral-500 dark:text-neutral-400">按时间查看全部文章。</p>
+  </header>
+
+  {{ $pages := where site.RegularPages "Section" "posts" }}
+  <section class="mt-10 space-y-10 w-full">
+    {{ range $pages.GroupByDate "2006" }}
+      <div class="archive-year">
+        <h2 class="archive-year__title">{{ .Key }}</h2>
+        <div class="archive-year__items">
+          {{ range .Pages }}
+            <a class="archive-item" href="{{ .RelPermalink }}">
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "01-02" }}</time>
+              <span>{{ .Title }}</span>
+            </a>
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+  </section>
+{{ end }}

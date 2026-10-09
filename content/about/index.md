@@ -1,6 +1,10 @@
 ---
 title: "关于"
 slug: "about"
+showComments: false
+showReadingTime: false
+showWordCount: false
+showTableOfContents: false
 ---
 
 > 平庸的生活方式是麻醉药。他只会束缚你，让你没有作为，甚至没有出息的度过大学的四年
